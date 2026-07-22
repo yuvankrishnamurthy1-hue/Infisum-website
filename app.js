@@ -881,7 +881,7 @@ function initReveals(){
         io.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+  }, { threshold: 0.04, rootMargin: '0px 0px -20px 0px' });
 
   items.forEach(el => io.observe(el));
 }
@@ -982,6 +982,41 @@ const INDUSTRY_IMAGES = {
   }
 };
 
+const HOME_INDUSTRY_IMAGES = {
+  agriculture: {
+    src:'https://plus.unsplash.com/premium_photo-1663945779302-b46b12b6d811?auto=format&fit=crop&w=1200&q=82',
+    alt:'Crops being harvested in an agricultural field'
+  },
+  energy: {
+    src:'https://plus.unsplash.com/premium_photo-1678167657579-a0986938f0c8?auto=format&fit=crop&w=1200&q=82',
+    alt:'Wind turbines producing renewable energy'
+  },
+  manufacturing: {
+    src:'https://plus.unsplash.com/premium_photo-1661476116614-0b35face5f2a?auto=format&fit=crop&w=1200&q=82',
+    alt:'A worker on a manufacturing line'
+  },
+  retail: {
+    src:'https://images.unsplash.com/photo-1670684684445-a4504dca0bbc?auto=format&fit=crop&w=1200&q=82',
+    alt:'Customers shopping in a retail store'
+  },
+  'financial-services': {
+    src:'https://plus.unsplash.com/premium_photo-1661718074815-1564d2eb920f?auto=format&fit=crop&w=1200&q=82',
+    alt:'Financial analysis displayed on a computer'
+  },
+  healthcare: {
+    src:'https://plus.unsplash.com/premium_photo-1681843126728-04eab730febe?auto=format&fit=crop&w=1200&q=82',
+    alt:'Healthcare professionals working together'
+  },
+  technology: {
+    src:'https://plus.unsplash.com/premium_photo-1740363268539-cd9093c3b5d1?auto=format&fit=crop&w=1200&q=82',
+    alt:'Servers inside a modern data center'
+  },
+  logistics: {
+    src:'https://plus.unsplash.com/premium_photo-1661964180970-c023a0363e4d?auto=format&fit=crop&w=1200&q=82',
+    alt:'Freight moving through a rail logistics network'
+  }
+};
+
 function industryIconSvg(ind){
   return `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${ind.icon}</svg>`;
 }
@@ -999,7 +1034,7 @@ function initIndustries(){
   if (isEditorialGrid || isCompactEditorialGrid){
     grid.classList.add(isCompactEditorialGrid ? 'ind-grid--compact' : 'ind-grid--editorial');
     grid.innerHTML = list.map(ind => {
-      const image = INDUSTRY_IMAGES[ind.slug];
+      const image = isCompactEditorialGrid ? HOME_INDUSTRY_IMAGES[ind.slug] : INDUSTRY_IMAGES[ind.slug];
       return `
         <a class="ind-story${isCompactEditorialGrid ? ' ind-story--compact' : ''}" href="industry-${ind.slug}.html" aria-label="Explore ${ind.name}">
           <span class="ind-story-media">
@@ -1236,7 +1271,7 @@ function initPaperCardImages(){
     const img = document.createElement('img');
     img.src = src;
     img.alt = '';
-    img.loading = 'lazy';
+    img.loading = 'eager';
     img.decoding = 'async';
     img.referrerPolicy = 'no-referrer';
     img.addEventListener('error', () => media.remove());
