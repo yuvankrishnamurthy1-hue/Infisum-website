@@ -249,7 +249,7 @@ content:
   - name: home
     label: "Website Pages: Home"
     type: file
-    file: content/pages/home.json
+    path: content/pages/home.json
     fields:
       - { name: slug, type: string, required: true }
       - { name: published, label: Show on website, type: boolean, required: true }
@@ -284,7 +284,7 @@ content:
   - name: about-page
     label: "Website Pages: About"
     type: file
-    file: content/pages/about.json
+    path: content/pages/about.json
     fields:
       - { name: slug, type: string, required: true }
       - { name: published, label: Show on website, type: boolean, required: true }
@@ -306,10 +306,12 @@ content:
       - { name: cta_text, label: "Closing CTA: text", type: text }
       - { name: cta_button, label: "Closing CTA: button", type: string }
 
+  # The 4 capability tabs and 4 deliverable cards stay hardcoded in capabilities.html —
+  # they change rarely and are easier to edit directly in the HTML than through a form.
   - name: capabilities-page
     label: "Website Pages: Capabilities"
     type: file
-    file: content/pages/capabilities.json
+    path: content/pages/capabilities.json
     fields:
       - { name: slug, type: string, required: true }
       - { name: published, label: Show on website, type: boolean, required: true }
@@ -319,15 +321,11 @@ content:
       - { name: cta_heading, label: "Closing CTA: heading", type: string }
       - { name: cta_text, label: "Closing CTA: text", type: text }
       - { name: cta_button, label: "Closing CTA: button", type: string }
-    description: >-
-      The 4 capability tabs and 4 deliverable cards stay hardcoded in
-      capabilities.html — they change rarely and are easier to edit directly
-      in the HTML than through a form.
 
   - name: spotlight-page
     label: "Website Pages: Spotlight"
     type: file
-    file: content/pages/spotlight.json
+    path: content/pages/spotlight.json
     fields:
       - { name: slug, type: string, required: true }
       - { name: published, label: Show on website, type: boolean, required: true }
@@ -340,7 +338,7 @@ content:
   - name: contact-page
     label: "Website Pages: Contact"
     type: file
-    file: content/pages/contact.json
+    path: content/pages/contact.json
     fields:
       - { name: slug, type: string, required: true }
       - { name: published, label: Show on website, type: boolean, required: true }
@@ -360,7 +358,7 @@ content:
   - name: privacy-page
     label: "Website Pages: Privacy Policy"
     type: file
-    file: content/pages/privacy.json
+    path: content/pages/privacy.json
     fields:
       - { name: slug, type: string, required: true }
       - { name: published, label: Show on website, type: boolean, required: true }
@@ -382,7 +380,7 @@ content:
   - name: global-settings
     label: "Website Pages: Global (footer)"
     type: file
-    file: content/settings/global.json
+    path: content/settings/global.json
     fields:
       - { name: footer_tagline, label: Footer tagline, type: text }
       - { name: footer_email, label: "Footer contact email (display text)", type: string }
