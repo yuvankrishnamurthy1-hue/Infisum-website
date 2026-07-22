@@ -1,0 +1,29 @@
+{
+  "slug": "financial-inclusion-in-rural-india-a-case-study-of-mahuapur",
+  "title": "Financial Inclusion in Rural India: A Case Study of Mahuapur",
+  "published": true,
+  "source_url": "https://infisum.com/2022/08/09/financial-inclusion-in-rural-india-a-case-study-of-mahuapur/",
+  "paper_url": null,
+  "summary": {
+    "about": "How rural households use banking, credit, subsidies and income sources in Mahuapur village.",
+    "audience": "Financial-inclusion agencies, banks, microfinance providers and rural policymakers.",
+    "method": "Interviews households from varied socioeconomic groups about finances, policies, spending and aspirations.",
+    "insights": "Jan Dhan improved saving and bank access, but caste, shrinking farms and limited microfinance still constrain inclusion."
+  },
+  "placements": [
+    {
+      "industry": "financial-services",
+      "order": 1,
+      "category": "Banking & Finance",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1534951009808-766178b47a4f?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "retail",
+      "order": 8,
+      "category": "Retail & Consumer",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1633158829585-23ba8f7c8caf?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

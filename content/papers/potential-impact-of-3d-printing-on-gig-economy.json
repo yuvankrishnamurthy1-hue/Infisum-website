@@ -1,0 +1,36 @@
+{
+  "slug": "potential-impact-of-3d-printing-on-gig-economy",
+  "title": "Potential Impact of 3D Printing on Gig Economy",
+  "published": true,
+  "source_url": "https://infisum.com/2022/08/09/potential-impact-of-3d-printing-on-gig-economy/",
+  "paper_url": "https://link.springer.com/chapter/10.1007/978-981-16-8406-7_19?error=cookies_not_supported&code=001e7c4d-a81f-4406-82e4-243c8370ab75",
+  "summary": {
+    "about": "How 3D printing adoption could affect India’s employment, GDP, trade and industry output.",
+    "audience": "Manufacturing policymakers, 3D-printing firms and workforce planners.",
+    "method": "Uses GTAP CGE analysis under a 10% adoption scenario.",
+    "insights": "The model projects employment up 2.38% and GDP up 1.26%, with gains concentrated in manufacturing, aerospace, automotive and related services."
+  },
+  "placements": [
+    {
+      "industry": "construction",
+      "order": 3,
+      "category": "Construction & Infrastructure",
+      "image": null,
+      "image_url": "https://plus.unsplash.com/premium_photo-1715876679877-079db51d1d6a?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "manufacturing",
+      "order": 1,
+      "category": "Manufacturing",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1642969164999-979483e21601?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "technology",
+      "order": 2,
+      "category": "Technology & Digital",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1611117775350-ac3950990985?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

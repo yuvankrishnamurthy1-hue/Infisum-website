@@ -1,0 +1,29 @@
+{
+  "slug": "decarbonization-and-global-value-chains-in-asean",
+  "title": "Decarbonization and Global Value Chains in ASEAN",
+  "published": true,
+  "source_url": "https://infisum.com/2023/04/21/decarbonization-and-global-value-chains-in-asean/",
+  "paper_url": "https://www.adb.org/sites/default/files/publication/871976/asean-global-value-chains-resilience-sustainability.pdf",
+  "summary": {
+    "about": "The economic and value-chain consequences of ASEAN countries meeting emissions targets.",
+    "audience": "ASEAN climate, energy, trade and industrial policymakers.",
+    "method": "Links GTAP-E-Power and GTAP value-added models under business-as-usual and national-target scenarios.",
+    "insights": "Meeting targets imposes GDP and value-added costs, but estimated social savings from lower carbon emissions can outweigh those losses."
+  },
+  "placements": [
+    {
+      "industry": "energy",
+      "order": 1,
+      "category": "Energy & Environment",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "logistics",
+      "order": 2,
+      "category": "Logistics & Transport",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1578604665675-9aee692f6ddc?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

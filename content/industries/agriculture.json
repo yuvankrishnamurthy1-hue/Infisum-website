@@ -1,0 +1,20 @@
+{
+  "slug": "agriculture",
+  "name": "Agriculture & Food",
+  "order": 1,
+  "published": true,
+  "summary": "We model how trade, climate and subsidies affect prices, production and food security.",
+  "approach_points": [
+    "Crop & commodity price modelling",
+    "Food-security & subsidy impact analysis",
+    "Climate-shock scenario planning"
+  ],
+  "icon_svg": "<path d=\"M4 20c8 0 14-6 14-14 0 0-12-2-14 8-1 5 0 6 0 6Z\"/><path d=\"M4 20c0-4 2-8 6-10\"/>",
+  "image": null,
+  "image_url": "https://images.unsplash.com/photo-1560493676-04071c5f467b?auto=format&fit=crop&w=1400&q=82",
+  "image_alt": "Cultivated fields and agricultural land",
+  "home_image": null,
+  "home_image_url": "https://plus.unsplash.com/premium_photo-1663945779302-b46b12b6d811?auto=format&fit=crop&w=1200&q=82",
+  "home_image_alt": "Crops being harvested in an agricultural field",
+  "related_study": null
+}

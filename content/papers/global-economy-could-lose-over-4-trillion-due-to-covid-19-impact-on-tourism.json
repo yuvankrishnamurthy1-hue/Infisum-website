@@ -1,0 +1,29 @@
+{
+  "slug": "global-economy-could-lose-over-4-trillion-due-to-covid-19-impact-on-tourism",
+  "title": "Global Economy Could Lose Over $4 Trillion Due to COVID-19 Impact on Tourism",
+  "published": true,
+  "source_url": "https://infisum.com/2021/09/24/global-economy-could-lose-over-4-trillion-due-covid-19-impact-tourism/",
+  "paper_url": null,
+  "summary": {
+    "about": "The direct and economy-wide cost of the pandemic-driven collapse in international tourism.",
+    "audience": "Tourism ministries, development institutions and recovery planners.",
+    "method": "Uses GTAP simulations under three international-arrival scenarios, excluding the effect of stimulus policies.",
+    "insights": "Tourism losses multiply through suppliers and labor markets, with developing, low-vaccination economies bearing the largest burden."
+  },
+  "placements": [
+    {
+      "industry": "logistics",
+      "order": 10,
+      "category": "Logistics & Transport",
+      "image": null,
+      "image_url": "https://plus.unsplash.com/premium_photo-1663039978729-6f6775725f89?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "public-sector",
+      "order": 5,
+      "category": "Public Sector",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

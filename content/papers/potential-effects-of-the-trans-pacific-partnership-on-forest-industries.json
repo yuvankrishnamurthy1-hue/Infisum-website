@@ -1,0 +1,36 @@
+{
+  "slug": "potential-effects-of-the-trans-pacific-partnership-on-forest-industries",
+  "title": "Potential Effects of the Trans-Pacific Partnership on Forest Industries",
+  "published": true,
+  "source_url": "https://infisum.com/2020/04/21/potential-effects-of-trans-pacific-partnership-on-forest-industries/",
+  "paper_url": "https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxiYWRyaW5hcmF5YW5hbmd8Z3g6Mjk5MGY1ZWM1NjI2ZTFhYw",
+  "summary": {
+    "about": "A methodological critique of estimates for TPP effects on forestry industries.",
+    "audience": "Forestry economists, trade modelers and policy researchers.",
+    "method": "Compares assumptions in the Global Forest Products Model with GTAP-based TPP studies.",
+    "insights": "Modeling tariffs and macroeconomic change separately may double-count effects; non-tariff rules and consistent dynamic baselines should be included."
+  },
+  "placements": [
+    {
+      "industry": "agriculture",
+      "order": 8,
+      "category": "Agriculture & Food",
+      "image": null,
+      "image_url": "https://plus.unsplash.com/premium_photo-1663012912880-7b2baa3fafa6?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "construction",
+      "order": 9,
+      "category": "Construction & Infrastructure",
+      "image": null,
+      "image_url": "https://plus.unsplash.com/premium_photo-1661851207784-e29e2ebe4efb?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "energy",
+      "order": 7,
+      "category": "Energy & Environment",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1469125155630-7ed37e065743?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "energy-subsidies-in-russia",
+  "title": "Energy Subsidies in Russia",
+  "published": true,
+  "source_url": "https://infisum.com/2022/08/08/energy-subsidies-in-russia/",
+  "paper_url": "https://documents1.worldbank.org/curated/en/099125011302110190/pdf/P1750280ca1db807e08cea076ac354e401b.pdf",
+  "summary": {
+    "about": "The economic and regional consequences of removing oil, gas and electricity subsidies in Russia.",
+    "audience": "Russian energy, finance, social-protection and regional policymakers.",
+    "method": "Uses a regionally disaggregated Russian CGE model, including opportunity costs and fuel-substitution responses.",
+    "insights": "Subsidy reform must be paired with competitiveness, efficiency, governance and social-protection measures to manage uneven impacts."
+  },
+  "placements": [
+    {
+      "industry": "energy",
+      "order": 2,
+      "category": "Energy & Environment",
+      "image": null,
+      "image_url": "https://plus.unsplash.com/premium_photo-1664695369039-d66c788cd2f0?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

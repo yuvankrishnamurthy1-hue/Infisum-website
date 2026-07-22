@@ -1,0 +1,36 @@
+{
+  "slug": "analyzing-the-potential-market-for-msmes-in-india",
+  "title": "Analyzing the Potential Market for MSMEs in India",
+  "published": true,
+  "source_url": "https://infisum.com/2023/04/20/analyzing-the-potential-market-for-msmes-in-india/",
+  "paper_url": "https://armgpublishing.com/journals/sec/volume-7-issue-1/article-9/",
+  "summary": {
+    "about": "Which products and foreign markets offer the strongest export opportunities for Indian MSMEs.",
+    "audience": "MSME owners, export agencies and Indian trade policymakers.",
+    "method": "Combines RCA, RTA, market-demand and export-potential indicators with GTAP estimates for 2022–27.",
+    "insights": "Strong opportunities appear in textiles, food, agriculture and machinery, especially in the UAE, China, Bangladesh and the United States."
+  },
+  "placements": [
+    {
+      "industry": "construction",
+      "order": 5,
+      "category": "Construction & Infrastructure",
+      "image": null,
+      "image_url": "https://plus.unsplash.com/premium_photo-1686840551986-54b832f9f5c7?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "public-sector",
+      "order": 2,
+      "category": "Public Sector",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1599033183537-54ff77f58f75?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "retail",
+      "order": 5,
+      "category": "Retail & Consumer",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1622572771591-6ca7813cc39d?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

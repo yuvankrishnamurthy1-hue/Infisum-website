@@ -1,0 +1,29 @@
+{
+  "slug": "the-potential-impact-of-ghg-reductions-on-air-pollution-in-india",
+  "title": "The Potential Impact of GHG Reductions on Air Pollution in India",
+  "published": true,
+  "source_url": "https://infisum.com/2022/05/30/the-potential-impact-of-ghg-reductions-on-air-pollution-in-india/",
+  "paper_url": "https://www.tandfonline.com/doi/abs/10.1080/13547860.2021.1917486",
+  "summary": {
+    "about": "Whether cutting greenhouse gases under India’s Paris commitments also reduces harmful local air pollution.",
+    "audience": "Indian climate, energy, health and air-quality policymakers.",
+    "method": "Uses economy-wide modeling of Paris-aligned GHG reductions and air-pollution changes across sectors.",
+    "insights": "Climate and clean-air goals can reinforce or conflict with each other, so policy should target both rather than assume automatic co-benefits."
+  },
+  "placements": [
+    {
+      "industry": "construction",
+      "order": 7,
+      "category": "Construction & Infrastructure",
+      "image": null,
+      "image_url": "https://plus.unsplash.com/premium_photo-1664298311043-46b3814a511f?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "energy",
+      "order": 4,
+      "category": "Energy & Environment",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1758187948084-2346aed52a37?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

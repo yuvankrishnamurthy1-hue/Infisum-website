@@ -1,0 +1,29 @@
+{
+  "slug": "potential-economic-impact-of-fixing-the-inverted-customs-duty-structure-the-case-of-indian-viscose-fibers",
+  "title": "Potential Economic Impact of Fixing the Inverted Customs Duty Structure: The Case of Indian Viscose Fibers",
+  "published": true,
+  "source_url": "https://infisum.com/2023/04/20/potential-economic-impact-of-fixing-the-inverted-customs-duty-structure-the-case-of-indian-viscose-fibers/",
+  "paper_url": null,
+  "summary": {
+    "about": "The effect of removing India’s tariff disadvantage on imported pulp used to make viscose fibre.",
+    "audience": "Textile and customs policymakers, viscose producers and trade analysts.",
+    "method": "Uses a GTAP CGE model to simulate correction of the inverted duty structure.",
+    "insights": "The reform is estimated to raise Indian GDP by about $18 million and exports by about $10.75 million."
+  },
+  "placements": [
+    {
+      "industry": "retail",
+      "order": 7,
+      "category": "Retail & Consumer",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1675176785803-bffbbb0cd2f4?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "textiles",
+      "order": 1,
+      "category": "Textiles & Apparel",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1517146783983-418c681b56c5?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

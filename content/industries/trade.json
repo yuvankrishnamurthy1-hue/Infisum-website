@@ -1,0 +1,25 @@
+{
+  "slug": "trade",
+  "name": "Trade & Customs",
+  "order": 10,
+  "published": true,
+  "summary": "We measure the effects of tariffs, customs rules and trade liberalization.",
+  "approach_points": [
+    "Customs-duty & tariff-structure analysis",
+    "Trade-liberalization impact modelling",
+    "Cross-border compliance cost studies"
+  ],
+  "icon_svg": "<circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M3 12h18M12 3c2.5 2.5 4 5.7 4 9s-1.5 6.5-4 9c-2.5-2.5-4-5.7-4-9s1.5-6.5 4-9Z\"/>",
+  "image": null,
+  "image_url": "https://images.unsplash.com/photo-1706499856012-14f062c72b49?auto=format&fit=crop&w=1400&q=82",
+  "image_alt": "Cargo containers supporting global trade",
+  "home_image": null,
+  "home_image_url": null,
+  "home_image_alt": "",
+  "related_study": {
+    "tag": "Trade Policy",
+    "title": "Inverted Customs-Duty Structure & Indian Viscose Fibers",
+    "sum": "Modelling the sectoral effects of duty inversion across the Indian textile value chain.",
+    "href": "spotlight.html#viscose"
+  }
+}

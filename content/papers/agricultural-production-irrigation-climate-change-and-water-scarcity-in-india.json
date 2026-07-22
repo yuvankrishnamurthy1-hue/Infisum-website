@@ -1,0 +1,22 @@
+{
+  "slug": "agricultural-production-irrigation-climate-change-and-water-scarcity-in-india",
+  "title": "Agricultural Production, Irrigation, Climate Change, and Water Scarcity in India",
+  "published": true,
+  "source_url": "https://infisum.com/2020/04/21/agricultural-production-irrigation-climate-change-and-water-scarcity-in-india/",
+  "paper_url": "https://infisum.com/wp-content/uploads/2020/04/AAEA_2015_India_Final.pdf",
+  "summary": {
+    "about": "How climate change and limited water supplies could reshape Indian agriculture, irrigation, land use and welfare.",
+    "audience": "Agricultural, water, climate and food-security policymakers.",
+    "method": "Combines an advanced CGE model with biophysical crop-yield projections and water-scarcity constraints.",
+    "insights": "Water scarcity reverses possible climate-related gains, reduces irrigation and could create welfare losses of about $3.2 billion in 2030."
+  },
+  "placements": [
+    {
+      "industry": "agriculture",
+      "order": 4,
+      "category": "Agriculture & Food",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1692369584496-3216a88f94c1?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

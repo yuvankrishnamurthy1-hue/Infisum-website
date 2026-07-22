@@ -1,0 +1,29 @@
+{
+  "slug": "is-there-a-monopoly-in-the-global-digital-services-sector",
+  "title": "Is There a Monopoly in the Global Digital Services Sector?",
+  "published": true,
+  "source_url": "https://infisum.com/2021/05/06/is-there-a-monopoly-in-the-global-digital-services-sector/",
+  "paper_url": null,
+  "summary": {
+    "about": "Whether dominance by a few major digital platforms should automatically be treated as monopoly power.",
+    "audience": "Competition regulators, digital-platform firms and technology-policy readers.",
+    "method": "An economic commentary using network effects, marginal costs, switching costs and cross-market competition.",
+    "insights": "Concentration can create user value through networks, though platforms still need scrutiny where data, attention and market reach reinforce power."
+  },
+  "placements": [
+    {
+      "industry": "retail",
+      "order": 6,
+      "category": "Retail & Consumer",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "technology",
+      "order": 10,
+      "category": "Technology & Digital",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1694903089438-bf28d4697d9a?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

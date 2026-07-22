@@ -1,0 +1,22 @@
+{
+  "slug": "opinion-disruptive-tech-to-drive-aquaculture",
+  "title": "Opinion: Disruptive Tech to Drive Aquaculture",
+  "published": true,
+  "source_url": "https://infisum.com/2022/08/12/opinion-disruptive-tech-to-drive-aquaculture/",
+  "paper_url": "https://telanganatoday.com/opinion-disruptive-tech-to-drive-aquaculture",
+  "summary": {
+    "about": "The growing role of cross-disciplinary technology startups in fisheries and aquaculture.",
+    "audience": "Aquaculture entrepreneurs, incubators, researchers and innovation funders.",
+    "method": "An expert commentary informed by evaluation of startup proposals submitted to BIRAC.",
+    "insights": "Computer engineers and business graduates are bringing disruptive tools into aquaculture, widening the sector’s innovation base."
+  },
+  "placements": [
+    {
+      "industry": "agriculture",
+      "order": 10,
+      "category": "Agriculture & Food",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1565183044969-cd20435db7d4?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

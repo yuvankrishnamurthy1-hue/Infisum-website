@@ -1,0 +1,22 @@
+{
+  "slug": "assessing-the-costs-of-tariffs-on-the-us-ict-industry-modeling-us-china-tariffs",
+  "title": "Assessing the Costs of Tariffs on the US ICT Industry: Modeling US-China Tariffs",
+  "published": true,
+  "source_url": "https://infisum.com/2020/04/23/assessing-the-costs-of-tariffs-on-the-us-ict-industry-modeling-us-china-tariffs/",
+  "paper_url": "https://rhg.com/research/assessing-the-costs-of-tariffs-on-the-us-ict-industry/",
+  "summary": {
+    "about": "The economic cost to the United States of escalating barriers to ICT trade with China.",
+    "audience": "U.S. trade officials, technology companies and supply-chain leaders.",
+    "method": "Simulates tariff-escalation scenarios modeled on U.S. Section 301 measures.",
+    "insights": "Tariffs reduce ICT competitiveness, do little to restore manufacturing and could cost U.S. GDP about $1 trillion over ten years."
+  },
+  "placements": [
+    {
+      "industry": "technology",
+      "order": 3,
+      "category": "Technology & Digital",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1674027444485-cec3da58eef4?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

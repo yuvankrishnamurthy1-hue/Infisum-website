@@ -1,0 +1,20 @@
+{
+  "slug": "textiles",
+  "name": "Textiles & Apparel",
+  "order": 9,
+  "published": true,
+  "summary": "We model the textile value chain from raw inputs to finished-goods trade.",
+  "approach_points": [
+    "Value-chain & duty-structure modelling",
+    "Fiber-to-finished-goods trade analysis",
+    "Sectoral competitiveness studies"
+  ],
+  "icon_svg": "<path d=\"M8 4 4 7v3h3v10h10V10h3V7l-4-3-3 2h-2L8 4Z\"/>",
+  "image": null,
+  "image_url": "https://images.unsplash.com/photo-1655122878062-a9e885391a1b?auto=format&fit=crop&w=1400&q=82",
+  "image_alt": "Fabric and textile production",
+  "home_image": null,
+  "home_image_url": null,
+  "home_image_alt": "",
+  "related_study": null
+}

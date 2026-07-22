@@ -1,0 +1,29 @@
+{
+  "slug": "an-updated-assessment-of-the-economic-impact-of-covid-19",
+  "title": "An Updated Assessment of the Economic Impact of COVID-19",
+  "published": true,
+  "source_url": "https://infisum.com/2021/06/30/an-updated-assessment-of-the-economic-impact-of-covid-19-2/",
+  "paper_url": "https://www.adb.org/sites/default/files/publication/604206/adb-brief-133-updated-economic-impact-covid-19.pdf",
+  "summary": {
+    "about": "The main channels through which COVID-19 affected economies and the potential role of fiscal support.",
+    "audience": "Economic policymakers, development institutions and crisis-response planners.",
+    "method": "Uses the multiregion GTAP CGE model to simulate trade-cost, productivity and fiscal-stimulus shocks.",
+    "insights": "Pandemic losses spread through tourism, supply chains, wages, consumption and investment, while policy support can offset part of the damage."
+  },
+  "placements": [
+    {
+      "industry": "healthcare",
+      "order": 6,
+      "category": "Healthcare",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1608914182595-048dfc84a647?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "technology",
+      "order": 4,
+      "category": "Technology & Digital",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1584744982493-704a9eea4322?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

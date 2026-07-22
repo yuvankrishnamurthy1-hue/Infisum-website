@@ -1,0 +1,36 @@
+{
+  "slug": "a-quantitative-assessment-of-economic-impact-of-trade-wars-and-the-make-in-india-program",
+  "title": "A Quantitative Assessment of Economic Impact of Trade Wars and the ‘Make in India’ Program",
+  "published": true,
+  "source_url": "https://infisum.com/2021/09/23/a-quantitative-assessment-of-economic-impact-of-trade-wars-and-the-make-in-india-program/",
+  "paper_url": "https://artnet.unescap.org/publications/working-papers/quantitative-assessment-economic-impact-trade-wars-and-make-india",
+  "summary": {
+    "about": "The combined economic effects of Make in India policies and the 2017–18 global trade war.",
+    "audience": "Indian industrial, trade and investment policymakers.",
+    "method": "Runs applied general-equilibrium simulations of investment incentives, protectionist measures and trade-war shocks.",
+    "insights": "The combined policies can benefit the overall economy while still weakening exports, jobs and investment in important sectors."
+  },
+  "placements": [
+    {
+      "industry": "construction",
+      "order": 4,
+      "category": "Construction & Infrastructure",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1601897690942-bcacbad33e55?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "public-sector",
+      "order": 7,
+      "category": "Public Sector",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1718289518008-2a6e78a87488?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "trade",
+      "order": 10,
+      "category": "Trade & Customs",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1592487501226-7ed5e5dc80f2?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 // capability tabs, contact form.
 
 /* Verified against the live Infisum article pages and their publication links. */
-const PAPER_LINKS = {
+const PAPER_LINKS = window.INFISUM_CONTENT?.paperLinks || {
   "A Graphics Design Framework to Visualize Multi-dimensional Economic Datasets": {
     "pageUrl": "https://infisum.com/2020/04/23/a-graphics-design-framework-to-visualize-multi-dimensional-economic-datasets/",
     "paperUrl": "https://www.edgj.org/index.php/EDGJ/article/download/385/278/0"
@@ -333,7 +333,7 @@ const PAPER_LINK_INDEX = Object.fromEntries(
   Object.entries(PAPER_LINKS).map(([title, links]) => [repairPaperTitle(title), links])
 );
 
-const PAPER_SUMMARIES = {
+const PAPER_SUMMARIES = window.INFISUM_CONTENT?.paperSummaries || {
   "A Graphics Design Framework to Visualize Multi-dimensional Economic Datasets": {
     "about": "A prototype for exploring large, multidimensional economic datasets through an interactive visual environment.",
     "audience": "Economists, policy analysts, data scientists and visualization designers.",
@@ -889,7 +889,7 @@ function initReveals(){
 /* ---------- Industries data ---------- */
 const CHECK = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 
-const INDUSTRIES = [
+const INDUSTRIES = window.INFISUM_CONTENT?.industries || [
   { slug:'agriculture', name:'Agriculture & Food', icon:'<path d="M4 20c8 0 14-6 14-14 0 0-12-2-14 8-1 5 0 6 0 6Z"/><path d="M4 20c0-4 2-8 6-10"/>',
     summary:'We model how trade, climate and subsidies affect prices, production and food security.',
     points:['Crop & commodity price modelling','Food-security & subsidy impact analysis','Climate-shock scenario planning'] },
@@ -931,7 +931,7 @@ const INDUSTRIES = [
     points:['Fiscal-policy & budget-impact modelling','Cross-agency scenario planning','Sustainable-development alignment'] },
 ];
 
-const INDUSTRY_IMAGES = {
+const INDUSTRY_IMAGES = window.INFISUM_CONTENT?.industryImages || {
   agriculture: {
     src:'https://images.unsplash.com/photo-1560493676-04071c5f467b?auto=format&fit=crop&w=1400&q=82',
     alt:'Cultivated fields and agricultural land'
@@ -982,7 +982,7 @@ const INDUSTRY_IMAGES = {
   }
 };
 
-const HOME_INDUSTRY_IMAGES = {
+const HOME_INDUSTRY_IMAGES = window.INFISUM_CONTENT?.homeIndustryImages || {
   agriculture: {
     src:'https://plus.unsplash.com/premium_photo-1663945779302-b46b12b6d811?auto=format&fit=crop&w=1200&q=82',
     alt:'Crops being harvested in an agricultural field'

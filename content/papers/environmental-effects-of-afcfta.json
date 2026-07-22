@@ -1,0 +1,29 @@
+{
+  "slug": "environmental-effects-of-afcfta",
+  "title": "Environmental Effects of AfCFTA",
+  "published": true,
+  "source_url": "https://infisum.com/2021/10/08/environmental-effects-of-afcfta/",
+  "paper_url": "https://www.atlantis-press.com/journals/jat/125959229",
+  "summary": {
+    "about": "How African trade liberalization under AfCFTA could change economic activity and pollution.",
+    "audience": "African trade, climate and development policymakers.",
+    "method": "Extends GTAP 10a with emissions accounting for CO2 and other greenhouse gases and pollutants.",
+    "insights": "Most members gain trade, GDP and jobs, but transport and production raise emissions—especially non-CO2 gases—in many countries."
+  },
+  "placements": [
+    {
+      "industry": "construction",
+      "order": 8,
+      "category": "Construction & Infrastructure",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1611270418597-a6c77f4b7271?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "energy",
+      "order": 5,
+      "category": "Energy & Environment",
+      "image": null,
+      "image_url": "https://plus.unsplash.com/premium_photo-1733317270278-772ee47c86d7?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

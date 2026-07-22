@@ -1,0 +1,29 @@
+{
+  "slug": "analysing-the-effects-of-the-covid-19-pandemic-on-medical-supply-chains-in-commonwealth-countries",
+  "title": "Analysing the Effects of the COVID-19 Pandemic on Medical Supply Chains in Commonwealth Countries",
+  "published": true,
+  "source_url": "https://infisum.com/2020/10/01/analysing-the-effects-of-the-covid-19-pandemic-on-medical-supply-chains-in-commonwealth-countries/",
+  "paper_url": null,
+  "summary": {
+    "about": "Pandemic disruption to trade in essential medical goods across Commonwealth countries.",
+    "audience": "Health, trade and supply-chain officials across the Commonwealth.",
+    "method": "Examines medical-goods import and export flows, trade interruptions, consumption changes and import tariffs.",
+    "insights": "More resilient medical supply chains require targeted trade and policy changes before the next major disruption."
+  },
+  "placements": [
+    {
+      "industry": "healthcare",
+      "order": 1,
+      "category": "Healthcare",
+      "image": null,
+      "image_url": "https://plus.unsplash.com/premium_photo-1723914178151-4a11fcbd968a?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "logistics",
+      "order": 3,
+      "category": "Logistics & Transport",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1603398938378-e54eab446dde?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

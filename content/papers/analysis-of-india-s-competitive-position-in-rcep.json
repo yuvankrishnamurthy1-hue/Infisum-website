@@ -1,0 +1,29 @@
+{
+  "slug": "analysis-of-india-s-competitive-position-in-rcep",
+  "title": "Analysis of India’s Competitive Position in RCEP",
+  "published": true,
+  "source_url": "https://infisum.com/2021/09/24/analysis-of-indias-competitive-position-in-rcep/",
+  "paper_url": null,
+  "summary": {
+    "about": "India’s trade competitiveness and exposure across the RCEP region after choosing not to join the agreement.",
+    "audience": "Indian trade negotiators, exporters and sector policymakers.",
+    "method": "Uses 2020 WITS trade data, revealed comparative advantage, export-intensity indicators and tariff comparisons.",
+    "insights": "India has strengths in services and several goods but weak export intensity, broad trade deficits and strong competition across RCEP markets."
+  },
+  "placements": [
+    {
+      "industry": "logistics",
+      "order": 7,
+      "category": "Logistics & Transport",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1494412685616-a5d310fbb07d?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "trade",
+      "order": 1,
+      "category": "Trade & Customs",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1713859272766-76751031af78?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

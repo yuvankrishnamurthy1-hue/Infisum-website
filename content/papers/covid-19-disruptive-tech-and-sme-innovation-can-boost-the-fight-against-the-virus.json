@@ -1,0 +1,22 @@
+{
+  "slug": "covid-19-disruptive-tech-and-sme-innovation-can-boost-the-fight-against-the-virus",
+  "title": "COVID-19: Disruptive Tech and SME Innovation Can Boost the Fight Against the Virus",
+  "published": true,
+  "source_url": "https://infisum.com/2021/03/07/covid-19-disruptive-tech-and-sme-innovation-can-boost-the-fight-against-the-virus/",
+  "paper_url": null,
+  "summary": {
+    "about": "How AI, machine learning, blockchain and small-business innovation can support pandemic response.",
+    "audience": "Technology entrepreneurs, health agencies, investors and innovation policymakers.",
+    "method": "Reviews documented applications in genome analysis, drug discovery, diagnostics, tracing and medical supply chains.",
+    "insights": "Disruptive technology can speed research, diagnosis and traceability while creating practical opportunities for Indian SMEs."
+  },
+  "placements": [
+    {
+      "industry": "healthcare",
+      "order": 9,
+      "category": "Healthcare",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1623402410068-d17f868beba0?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

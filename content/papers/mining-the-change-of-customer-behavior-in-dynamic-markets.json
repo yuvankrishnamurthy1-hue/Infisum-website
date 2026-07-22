@@ -1,0 +1,29 @@
+{
+  "slug": "mining-the-change-of-customer-behavior-in-dynamic-markets",
+  "title": "Mining the Change of Customer Behavior in Dynamic Markets",
+  "published": true,
+  "source_url": "https://infisum.com/2020/04/23/mining-the-change-of-customer-behavior-in-dynamic-markets/",
+  "paper_url": null,
+  "summary": {
+    "about": "A way to detect when customers’ purchasing sequences and quantities change over time.",
+    "audience": "Retail analysts, marketing teams, inventory planners and data-mining researchers.",
+    "method": "Develops a fuzzy quantitative sequential change-mining model and tests it on real and synthetic datasets.",
+    "insights": "The model identifies actionable pattern changes and remains scalable, helping managers avoid outdated marketing and inventory decisions."
+  },
+  "placements": [
+    {
+      "industry": "retail",
+      "order": 1,
+      "category": "Retail & Consumer",
+      "image": null,
+      "image_url": "https://plus.unsplash.com/premium_photo-1683141052679-942eb9e77760?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "technology",
+      "order": 5,
+      "category": "Technology & Digital",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

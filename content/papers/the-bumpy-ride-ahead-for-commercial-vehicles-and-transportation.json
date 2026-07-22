@@ -1,0 +1,29 @@
+{
+  "slug": "the-bumpy-ride-ahead-for-commercial-vehicles-and-transportation",
+  "title": "The Bumpy Ride Ahead for Commercial Vehicles and Transportation",
+  "published": true,
+  "source_url": "https://infisum.com/2021/04/25/the-bumpy-ride-ahead-for-commercial-vehicles-and-transportation/",
+  "paper_url": "https://auto.economictimes.indiatimes.com/news/commercial-vehicle/mhcv/opinion-the-bumpy-ride-ahead-for-commercial-vehicles-and-transportation/75095248",
+  "summary": {
+    "about": "COVID-19’s effect on Indian commercial vehicles, freight transport and component supply chains.",
+    "audience": "Truck manufacturers, logistics firms, suppliers and transport policymakers.",
+    "method": "Combines GTAP data, India’s input-output table and industry evidence on sales and sourcing.",
+    "insights": "The sector’s China dependence is moderate but tier-two and tier-three suppliers are vulnerable; recovery requires supply-chain redesign and technology."
+  },
+  "placements": [
+    {
+      "industry": "logistics",
+      "order": 4,
+      "category": "Logistics & Transport",
+      "image": null,
+      "image_url": "https://plus.unsplash.com/premium_photo-1681987448226-f8feb59a58e9?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "manufacturing",
+      "order": 8,
+      "category": "Manufacturing",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1716191300020-b52dec5b70a8?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

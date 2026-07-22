@@ -1,0 +1,22 @@
+{
+  "slug": "analysis-of-the-role-of-tariff-concessions-in-east-asia",
+  "title": "Analysis of the Role of Tariff Concessions in East Asia",
+  "published": true,
+  "source_url": "https://infisum.com/2020/04/21/analysis-of-the-role-of-tariff-concessions-in-east-asia/",
+  "paper_url": "https://econpapers.repec.org/paper/ngidpaper/16-21.htm",
+  "summary": {
+    "about": "Whether East Asian trade agreements’ promised tariff reductions are fully reflected in policy analysis.",
+    "audience": "Trade negotiators, CGE modelers and regional-integration researchers.",
+    "method": "Builds an HS6-level tariff-concession extension for GTAP and compares partial with complete implementation of East Asian agreements.",
+    "insights": "Unimplemented commitments materially affect projected outcomes and should be included in baselines for future trade-policy simulations."
+  },
+  "placements": [
+    {
+      "industry": "financial-services",
+      "order": 8,
+      "category": "Banking & Finance",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1670121180583-39ab653a071c?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

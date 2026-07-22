@@ -1,0 +1,29 @@
+{
+  "slug": "impact-of-cross-border-digital-transmissions-on-msmes-in-south-africa",
+  "title": "Impact of Cross-Border Digital Transmissions on MSMEs in South Africa",
+  "published": true,
+  "source_url": "https://infisum.com/2025/01/23/impact-of-cross-border-digital-transmissions-on-msmes-in-south-africa/",
+  "paper_url": "https://infisum.com/wp-content/uploads/2024/02/MSME-WTOMoratorium-SouthAfrica.pdf",
+  "summary": {
+    "about": "How imported digital products and services affect South African MSME growth.",
+    "audience": "South African MSMEs, digital-trade officials and WTO policymakers.",
+    "method": "Uses MSME employment, productivity and size time series with digital-import data from OECD input-output tables.",
+    "insights": "Digital imports contribute positively to MSME performance, supporting continued duty-free electronic transmissions."
+  },
+  "placements": [
+    {
+      "industry": "logistics",
+      "order": 8,
+      "category": "Logistics & Transport",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "retail",
+      "order": 4,
+      "category": "Retail & Consumer",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1685875018101-a3e87efdb1d1?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

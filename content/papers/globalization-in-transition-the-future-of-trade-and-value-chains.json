@@ -1,0 +1,29 @@
+{
+  "slug": "globalization-in-transition-the-future-of-trade-and-value-chains",
+  "title": "Globalization in Transition: The Future of Trade and Value Chains",
+  "published": true,
+  "source_url": "https://infisum.com/2020/04/23/globalization-in-transition-the-future-of-trade-and-value-chains-a-mckinsey-report/",
+  "paper_url": null,
+  "summary": {
+    "about": "How global production and trade patterns changed from 1995–2017.",
+    "audience": "Global companies, trade policymakers, investors and supply-chain strategists.",
+    "method": "Analyzes 23 value chains across 43 countries and groups them into six structural archetypes.",
+    "insights": "Goods trade is less intensive, services and intangibles matter more, labor-cost arbitrage is declining and production is becoming more regional."
+  },
+  "placements": [
+    {
+      "industry": "logistics",
+      "order": 1,
+      "category": "Logistics & Transport",
+      "image": null,
+      "image_url": "https://plus.unsplash.com/premium_photo-1661879449050-069f67e200bd?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "trade",
+      "order": 5,
+      "category": "Trade & Customs",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1606185540834-d6e7483ee1a4?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

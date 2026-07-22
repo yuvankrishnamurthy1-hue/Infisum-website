@@ -1,0 +1,243 @@
+media:
+  input: assets/content
+  output: /assets/content
+  rename: safe
+  categories: [image]
+
+settings:
+  content:
+    merge: true
+  commit:
+    templates:
+      create: "content: add {name}"
+      update: "content: update {name}"
+      delete: "content: remove {name}"
+
+content:
+  - name: papers
+    label: Research papers
+    type: collection
+    path: content/papers
+    format: json
+    filename:
+      template: "{fields.slug}.json"
+      field: create
+    view:
+      primary: title
+      fields: [title, published]
+      search: [title, summary.about, placements.industry]
+      sort: [title]
+    fields:
+      - name: slug
+        label: URL slug
+        type: string
+        required: true
+        pattern: "^[a-z0-9-]+$"
+      - name: title
+        label: Paper title
+        type: string
+        required: true
+      - name: published
+        label: Show on website
+        type: boolean
+        required: true
+      - name: source_url
+        label: Original listing URL
+        type: string
+      - name: paper_url
+        label: Full paper URL
+        type: string
+      - name: summary
+        label: Plain-language summary
+        type: object
+        fields:
+          - name: about
+            label: What it is about
+            type: text
+          - name: audience
+            label: Who it is for
+            type: text
+          - name: method
+            label: How it was studied
+            type: text
+          - name: insights
+            label: What it found
+            type: text
+      - name: placements
+        label: Industry cards
+        type: object
+        required: true
+        list:
+          min: 1
+          collapsible:
+            collapsed: true
+            summary: "{industry} — position {order}"
+        fields:
+          - name: industry
+            label: Industry
+            type: select
+            required: true
+            options:
+              values:
+                - agriculture
+                - construction
+                - energy
+                - financial-services
+                - healthcare
+                - logistics
+                - manufacturing
+                - public-sector
+                - retail
+                - technology
+                - textiles
+                - trade
+          - name: order
+            label: Card position
+            type: number
+            required: true
+          - name: category
+            label: Category label
+            type: string
+          - name: image
+            label: Uploaded card image
+            type: image
+          - name: image_url
+            label: Existing external image URL
+            type: string
+            description: Used until an uploaded image is selected.
+
+  - name: people
+    label: Team and advisors
+    type: collection
+    path: content/people
+    format: json
+    filename:
+      template: "{fields.slug}.json"
+      field: create
+    view:
+      primary: name
+      fields: [name, group, role, published]
+      search: [name, role, group]
+      sort: [group, order, name]
+    fields:
+      - name: slug
+        label: Record slug
+        type: string
+        required: true
+        pattern: "^[a-z0-9-]+$"
+      - name: name
+        label: Name
+        type: string
+        required: true
+      - name: group
+        label: Directory
+        type: select
+        required: true
+        options:
+          values:
+            - name: core
+              label: Core team
+            - name: distinguished
+              label: Distinguished advisors
+            - name: advisors
+              label: Advisors
+      - name: order
+        label: Display order
+        type: number
+        required: true
+      - name: published
+        label: Show on website
+        type: boolean
+        required: true
+      - name: role
+        label: Title or role
+        type: string
+      - name: bio
+        label: Short bio
+        type: text
+      - name: image
+        label: Uploaded headshot
+        type: image
+      - name: image_url
+        label: Existing external image URL
+        type: string
+        description: Used until an uploaded headshot is selected.
+      - name: linkedin_url
+        label: LinkedIn URL
+        type: string
+
+  - name: industries
+    label: Industries
+    type: collection
+    path: content/industries
+    format: json
+    filename:
+      template: "{fields.slug}.json"
+      field: create
+    view:
+      primary: name
+      fields: [name, order, published]
+      search: [name, summary]
+      sort: [order, name]
+    fields:
+      - name: slug
+        label: URL slug
+        type: string
+        required: true
+        pattern: "^[a-z0-9-]+$"
+      - name: name
+        label: Industry name
+        type: string
+        required: true
+      - name: order
+        label: Display order
+        type: number
+        required: true
+      - name: published
+        label: Show on website
+        type: boolean
+        required: true
+      - name: summary
+        label: Industry summary
+        type: text
+        required: true
+      - name: approach_points
+        label: Approach points
+        type: string
+        list:
+          min: 1
+      - name: icon_svg
+        label: Icon SVG paths
+        type: code
+      - name: image
+        label: Uploaded industry image
+        type: image
+      - name: image_url
+        label: Existing industry image URL
+        type: string
+      - name: image_alt
+        label: Industry image description
+        type: string
+      - name: home_image
+        label: Uploaded homepage image
+        type: image
+      - name: home_image_url
+        label: Existing homepage image URL
+        type: string
+      - name: home_image_alt
+        label: Homepage image description
+        type: string
+      - name: related_study
+        label: Related Spotlight study
+        type: object
+        fields:
+          - name: tag
+            type: string
+          - name: title
+            type: string
+          - name: sum
+            label: Summary
+            type: text
+          - name: href
+            label: Link
+            type: string

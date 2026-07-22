@@ -1,0 +1,29 @@
+{
+  "slug": "extending-the-gtap-framework-for-public-procurement-analysis",
+  "title": "Extending the GTAP Framework for Public Procurement Analysis",
+  "published": true,
+  "source_url": "https://infisum.com/2020/04/22/extending-the-gtap-framework-for-public-procurement-analysis/",
+  "paper_url": "https://econpapers.repec.org/paper/gtaworkpp/5146.htm",
+  "summary": {
+    "about": "A better way to represent government procurement in global trade-policy models.",
+    "audience": "Government procurement officials, trade negotiators and CGE model developers.",
+    "method": "Disaggregates government investment and import origins in GTAP, modifies the model and demonstrates an illustrative application.",
+    "insights": "Detailed procurement data are essential for estimating how discriminatory purchasing rules affect trade, employment and welfare."
+  },
+  "placements": [
+    {
+      "industry": "construction",
+      "order": 1,
+      "category": "Construction & Infrastructure",
+      "image": null,
+      "image_url": "https://plus.unsplash.com/premium_photo-1661559046208-0cef1cbf7b0b?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "public-sector",
+      "order": 8,
+      "category": "Public Sector",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1603796846097-bee99e4a601f?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

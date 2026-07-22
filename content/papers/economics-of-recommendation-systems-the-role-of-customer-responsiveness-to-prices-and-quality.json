@@ -1,0 +1,29 @@
+{
+  "slug": "economics-of-recommendation-systems-the-role-of-customer-responsiveness-to-prices-and-quality",
+  "title": "Economics of Recommendation Systems: The Role of Customer Responsiveness to Prices and Quality",
+  "published": true,
+  "source_url": "https://infisum.com/2020/04/23/economics-of-recommendations-systems-the-role-of-customer-responsiveness-to-prices-and-quality/",
+  "paper_url": null,
+  "summary": {
+    "about": "A recommendation method that accounts for how strongly customers respond to price and quality changes.",
+    "audience": "E-commerce teams, recommendation-system researchers and marketing analysts.",
+    "method": "Adds an elasticity-based second stage to collaborative or content filtering and illustrates it with movie-rating data.",
+    "insights": "Recommendations can be refined into buy or not-buy outcomes while estimating purchase changes caused by price or quality shifts."
+  },
+  "placements": [
+    {
+      "industry": "retail",
+      "order": 2,
+      "category": "Retail & Consumer",
+      "image": null,
+      "image_url": "https://plus.unsplash.com/premium_photo-1681488262364-8aeb1b6aac56?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "technology",
+      "order": 6,
+      "category": "Technology & Digital",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1612103198005-b238154f4590?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

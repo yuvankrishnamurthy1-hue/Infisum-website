@@ -1,0 +1,20 @@
+{
+  "slug": "construction",
+  "name": "Construction & Infrastructure",
+  "order": 11,
+  "published": true,
+  "summary": "We measure how infrastructure investment affects growth, jobs and regional development.",
+  "approach_points": [
+    "Public-investment impact modelling",
+    "Regional development scenario analysis",
+    "Infrastructure financing studies"
+  ],
+  "icon_svg": "<path d=\"M3 21h18M6 21V9l6-4 6 4v12M10 21v-6h4v6\"/>",
+  "image": null,
+  "image_url": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1400&q=82",
+  "image_alt": "Construction workers on an infrastructure project",
+  "home_image": null,
+  "home_image_url": null,
+  "home_image_alt": "",
+  "related_study": null
+}

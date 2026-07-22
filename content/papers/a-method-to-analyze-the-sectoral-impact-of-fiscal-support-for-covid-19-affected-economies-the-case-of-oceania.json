@@ -1,0 +1,29 @@
+{
+  "slug": "a-method-to-analyze-the-sectoral-impact-of-fiscal-support-for-covid-19-affected-economies-the-case-of-oceania",
+  "title": "A Method to Analyze the Sectoral Impact of Fiscal Support for COVID-19 Affected Economies: The Case of Oceania",
+  "published": true,
+  "source_url": "https://infisum.com/2021/09/24/a-method-to-analyze-the-sectoral-impact-of-fiscal-support-for-covid-19-affected-economies-the-case-of-oceania/",
+  "paper_url": null,
+  "summary": {
+    "about": "How fiscal stimulus changed the pandemic’s economic and industry-level effects across eight Oceania economies.",
+    "audience": "Finance ministries, central banks and economic-development policymakers in Oceania.",
+    "method": "Uses a global CGE model with IMF projections and country stimulus packages to compare pandemic scenarios.",
+    "insights": "Stimulus cushioned GDP losses, especially in New Zealand and Guam, but education, tourism and skilled employment remained heavily affected."
+  },
+  "placements": [
+    {
+      "industry": "healthcare",
+      "order": 4,
+      "category": "Healthcare",
+      "image": null,
+      "image_url": "https://plus.unsplash.com/premium_photo-1725075089198-b78f625290bd?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "public-sector",
+      "order": 6,
+      "category": "Public Sector",
+      "image": null,
+      "image_url": "https://plus.unsplash.com/premium_photo-1725075088960-49e27adc348e?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

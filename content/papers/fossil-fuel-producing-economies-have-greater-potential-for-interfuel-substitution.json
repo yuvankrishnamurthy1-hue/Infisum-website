@@ -1,0 +1,22 @@
+{
+  "slug": "fossil-fuel-producing-economies-have-greater-potential-for-interfuel-substitution",
+  "title": "Fossil Fuel Producing Economies Have Greater Potential for Interfuel Substitution",
+  "published": true,
+  "source_url": "https://infisum.com/2020/04/21/fossil-fuel-producing-economies-have-greater-potential-for-interfuel-substitution/",
+  "paper_url": "https://www.gtap.agecon.purdue.edu/resources/res_display.asp?RecordID=4220",
+  "summary": {
+    "about": "Why countries with fossil-fuel production may switch among energy sources more easily.",
+    "audience": "Energy and climate policymakers, modelers and resource economists.",
+    "method": "Extends interfuel-substitution analysis to include transaction costs, technological adjustment and production potential, then runs policy simulations.",
+    "insights": "Fossil-fuel producers show higher substitution elasticities, potentially lowering the cost of climate and energy policies."
+  },
+  "placements": [
+    {
+      "industry": "energy",
+      "order": 9,
+      "category": "Energy & Environment",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1516937941344-00b4e0337589?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

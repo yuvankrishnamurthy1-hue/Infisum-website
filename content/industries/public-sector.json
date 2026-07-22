@@ -1,0 +1,20 @@
+{
+  "slug": "public-sector",
+  "name": "Public Sector & Government",
+  "order": 12,
+  "published": true,
+  "summary": "We build fiscal and policy models for governments and multilateral institutions.",
+  "approach_points": [
+    "Fiscal-policy & budget-impact modelling",
+    "Cross-agency scenario planning",
+    "Sustainable-development alignment"
+  ],
+  "icon_svg": "<path d=\"M4 21h16M5 21V10M19 21V10M3 10l9-5 9 5M8 10v11M12 10v11M16 10v11\"/>",
+  "image": null,
+  "image_url": "https://images.unsplash.com/photo-1780396269429-e20eaa1a1cd2?auto=format&fit=crop&w=1400&q=82",
+  "image_alt": "Civic architecture representing public institutions",
+  "home_image": null,
+  "home_image_url": null,
+  "home_image_alt": "",
+  "related_study": null
+}

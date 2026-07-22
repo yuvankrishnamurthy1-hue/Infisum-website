@@ -1,0 +1,11 @@
+{
+  "industries": 12,
+  "papers": 79,
+  "paper_placements": 115,
+  "people": 172,
+  "people_groups": {
+    "core": 45,
+    "distinguished": 14,
+    "advisors": 113
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "time-series-analysis-of-production-in-indian-textiles-sector",
+  "title": "Time Series Analysis of Production in Indian Textiles Sector",
+  "published": true,
+  "source_url": "https://infisum.com/2020/04/22/time-series-analysis-of-production-in-indian-textiles-sector/",
+  "paper_url": "https://ideas.repec.org/a/taf/applec/v42y2010i6p759-768.html",
+  "summary": {
+    "about": "Whether standard production relationships hold in India’s textile industry over time.",
+    "audience": "Textile economists, manufacturers and industrial policymakers.",
+    "method": "Uses time-series cointegration and shock-response analysis for output, capital, labor and productivity.",
+    "insights": "Capital and output move together long term, while employment and capital shocks can reduce output or future productivity."
+  },
+  "placements": [
+    {
+      "industry": "textiles",
+      "order": 8,
+      "category": "Textiles & Apparel",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1741176505800-caaa3a52631a?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

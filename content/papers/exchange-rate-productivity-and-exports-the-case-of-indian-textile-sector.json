@@ -1,0 +1,22 @@
+{
+  "slug": "exchange-rate-productivity-and-exports-the-case-of-indian-textile-sector",
+  "title": "Exchange Rate, Productivity and Exports: The Case of Indian Textile Sector",
+  "published": true,
+  "source_url": "https://infisum.com/2020/04/22/exchange-rate-productivity-and-exports-the-case-of-indian-textile-sector/",
+  "paper_url": "http://www.ispepune.org.in/PDF%20ISSUE/2005/web405/0030002.PDF",
+  "summary": {
+    "about": "How exchange rates, prices and productivity influence Indian textile and apparel exports.",
+    "audience": "Textile exporters, monetary policymakers and trade economists.",
+    "method": "Uses long-run cointegration, Granger causality, impulse responses and variance decomposition on historical data.",
+    "insights": "Exchange rates and export prices have clear long-run links to exports; productivity’s role is present but less conclusive."
+  },
+  "placements": [
+    {
+      "industry": "textiles",
+      "order": 4,
+      "category": "Textiles & Apparel",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1524292332709-b33366a7f165?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

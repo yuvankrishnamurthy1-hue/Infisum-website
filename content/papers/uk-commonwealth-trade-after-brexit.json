@@ -1,0 +1,22 @@
+{
+  "slug": "uk-commonwealth-trade-after-brexit",
+  "title": "UK-Commonwealth Trade After Brexit",
+  "published": true,
+  "source_url": "https://infisum.com/2022/05/30/uk-commonwealth-trade-after-brexit-3/",
+  "paper_url": "https://production-new-commonwealth-files.s3.eu-west-2.amazonaws.com/migrated/inline/ITWP_2021-05_UPDF.pdf",
+  "summary": {
+    "about": "How post-Brexit UK trade agreements may redirect trade away from Commonwealth developing economies.",
+    "audience": "UK and Commonwealth trade officials, exporters and development agencies.",
+    "method": "Uses a multi-sector GTAP model to simulate several UK trade-agreement scenarios.",
+    "insights": "New agreements with efficient developed partners may erode market access for less-developed Commonwealth exporters."
+  },
+  "placements": [
+    {
+      "industry": "trade",
+      "order": 7,
+      "category": "Trade & Customs",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1614568111321-aaefe48192e2?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

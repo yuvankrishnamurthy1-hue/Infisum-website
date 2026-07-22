@@ -1,0 +1,22 @@
+{
+  "slug": "emissions-temperature-and-economic-growth-an-empirical-analysis-of-europe",
+  "title": "Emissions, Temperature and Economic Growth: An Empirical Analysis of Europe",
+  "published": true,
+  "source_url": "https://infisum.com/2022/08/05/emissions-temperature-and-economic-growth-an-empirical-analysis-of-europe/",
+  "paper_url": "https://eprajournals.com/jpanel/upload/822pm_71.EPRA%20JOURNALS-2816.pdf",
+  "summary": {
+    "about": "The relationship among greenhouse-gas emissions, temperature change and economic growth across Europe.",
+    "audience": "European climate policymakers, economists and environmental researchers.",
+    "method": "Applies time-series clustering to 33 countries from 1990–2016 and tests the environmental Kuznets-curve pattern.",
+    "insights": "Country clusters show distinct emissions-growth-temperature relationships, supporting more tailored environmental policy."
+  },
+  "placements": [
+    {
+      "industry": "energy",
+      "order": 3,
+      "category": "Energy & Environment",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1569163139394-de4e5f43e5ca?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

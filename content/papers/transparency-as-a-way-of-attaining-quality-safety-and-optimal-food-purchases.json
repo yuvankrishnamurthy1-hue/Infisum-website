@@ -1,0 +1,29 @@
+{
+  "slug": "transparency-as-a-way-of-attaining-quality-safety-and-optimal-food-purchases",
+  "title": "Transparency as a Way of Attaining Quality, Safety and Optimal Food Purchases",
+  "published": true,
+  "source_url": "https://infisum.com/2021/09/24/transparency-as-a-way-of-attaining-quality-safety-and-optimal-food-purchases/",
+  "paper_url": "https://armgpublishing.sumdu.edu.ua/wp-content/uploads/2021/01/5.pdf",
+  "summary": {
+    "about": "How food transparency, labels and trust affect consumers’ purchasing decisions.",
+    "audience": "Food retailers, regulators, brands and consumer-behavior researchers.",
+    "method": "Combines a literature review with six semi-structured consumer interviews in Washington State.",
+    "insights": "Consumers favor organic and certified food and want transparency, but often rely on assumptions, stores and labels rather than source knowledge."
+  },
+  "placements": [
+    {
+      "industry": "agriculture",
+      "order": 6,
+      "category": "Agriculture & Food",
+      "image": null,
+      "image_url": "https://plus.unsplash.com/premium_photo-1683121938935-118d0a16a469?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "energy",
+      "order": 6,
+      "category": "Energy & Environment",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1628102491629-778571d893a3?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "how-disruptive-technologies-are-changing-global-trade",
+  "title": "How Disruptive Technologies Are Changing Global Trade",
+  "published": true,
+  "source_url": "https://infisum.com/2021/03/07/how-disruptive-technologies-are-changing-global-trade/",
+  "paper_url": "https://www.policycircle.org/opinion/cause-and-effect-how-disruptive-technologies-are-changing-global-trade/",
+  "summary": {
+    "about": "How AI, automation, data science and 3D printing are changing production, trade and trade rules.",
+    "audience": "Trade officials, technology firms, workforce planners and international organizations.",
+    "method": "A policy commentary synthesizing technology trends and their implications for value chains and regulation.",
+    "insights": "Technology can lower costs and improve productivity, but also creates new questions about skills, protectionism, data flows and customs revenue."
+  },
+  "placements": [
+    {
+      "industry": "logistics",
+      "order": 5,
+      "category": "Logistics & Transport",
+      "image": null,
+      "image_url": "https://plus.unsplash.com/premium_photo-1683121710572-7723bd2e235d?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "technology",
+      "order": 8,
+      "category": "Technology & Digital",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

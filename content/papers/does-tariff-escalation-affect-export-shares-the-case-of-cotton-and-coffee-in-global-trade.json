@@ -1,0 +1,36 @@
+{
+  "slug": "does-tariff-escalation-affect-export-shares-the-case-of-cotton-and-coffee-in-global-trade",
+  "title": "Does Tariff Escalation Affect Export Shares? The Case of Cotton and Coffee in Global Trade",
+  "published": true,
+  "source_url": "https://infisum.com/2020/04/20/does-tariff-escalation-affect-export-shares-the-case-of-cotton-and-coffee-in-global-trade/",
+  "paper_url": "https://ideas.repec.org/p/ags/aaea11/103946.html",
+  "summary": {
+    "about": "Why tariff escalation affects processed cotton and coffee exports differently across developing countries.",
+    "audience": "Trade officials, commodity exporters and value-chain researchers.",
+    "method": "Extends the GTAP 2004 database with detailed UN and industry data and simulates lower processing tariffs.",
+    "insights": "Tariff escalation does not have one uniform effect; outcomes depend on tariff gaps and each country’s sector conditions."
+  },
+  "placements": [
+    {
+      "industry": "agriculture",
+      "order": 7,
+      "category": "Agriculture & Food",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1561030328-832091ec66fe?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "public-sector",
+      "order": 9,
+      "category": "Public Sector",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1597602089848-7497228bfd53?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "trade",
+      "order": 9,
+      "category": "Trade & Customs",
+      "image": null,
+      "image_url": "https://plus.unsplash.com/premium_photo-1682706449673-69bbc0680c22?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "covid-19-pandemic-the-impact-of-the-virus-on-india-s-gdp",
+  "title": "COVID-19 Pandemic: The Impact of the Virus on India’s GDP",
+  "published": true,
+  "source_url": "https://infisum.com/2021/03/05/covid-19-pandemic-the-impact-of-the-virus-on-indias-gdp/",
+  "paper_url": null,
+  "summary": {
+    "about": "The early economic shock of COVID-19 across Indian finance, tourism, aviation, manufacturing and consumer sectors.",
+    "audience": "Indian business leaders, investors and economic policymakers.",
+    "method": "Synthesizes early market, trade, sector and public-health data in a rapid economic assessment.",
+    "insights": "Travel and hospitality faced the deepest immediate losses, while supply-chain disruption spread damage into automobiles and consumer goods."
+  },
+  "placements": [
+    {
+      "industry": "healthcare",
+      "order": 8,
+      "category": "Healthcare",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1612246964377-048f2f1e76d9?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}

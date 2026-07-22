@@ -1,0 +1,36 @@
+{
+  "slug": "trade-and-access-to-credit-in-import-destinations",
+  "title": "Trade and Access to Credit in Import Destinations",
+  "published": true,
+  "source_url": "https://infisum.com/2021/10/08/trade-and-access-to-credit-in-import-destinations/",
+  "paper_url": null,
+  "summary": {
+    "about": "How access to finance in African markets affects exports from India.",
+    "audience": "Indian and African trade ministries, banks and trade-finance institutions.",
+    "method": "Estimates several gravity-model specifications with and without banking, credit, interest-rate and registry variables.",
+    "insights": "Better credit access allows even poorer African countries to import more, making trade finance central to India–Africa trade growth."
+  },
+  "placements": [
+    {
+      "industry": "financial-services",
+      "order": 2,
+      "category": "Banking & Finance",
+      "image": null,
+      "image_url": "https://plus.unsplash.com/premium_photo-1679920897222-3c9e713bde36?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "logistics",
+      "order": 6,
+      "category": "Logistics & Transport",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1579621970795-87facc2f976d?auto=format&fit=crop&w=760&h=430&q=78"
+    },
+    {
+      "industry": "trade",
+      "order": 2,
+      "category": "Trade & Customs",
+      "image": null,
+      "image_url": "https://images.unsplash.com/photo-1604594849809-dfedbc827105?auto=format&fit=crop&w=760&h=430&q=78"
+    }
+  ]
+}
