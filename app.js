@@ -931,6 +931,57 @@ const INDUSTRIES = [
     points:['Fiscal-policy & budget-impact modelling','Cross-agency scenario planning','Sustainable-development alignment'] },
 ];
 
+const INDUSTRY_IMAGES = {
+  agriculture: {
+    src:'https://images.unsplash.com/photo-1560493676-04071c5f467b?auto=format&fit=crop&w=1400&q=82',
+    alt:'Cultivated fields and agricultural land'
+  },
+  energy: {
+    src:'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1400&q=82',
+    alt:'Energy infrastructure and electricity transmission'
+  },
+  manufacturing: {
+    src:'https://images.unsplash.com/photo-1717386255773-1e3037c81788?auto=format&fit=crop&w=1400&q=82',
+    alt:'A modern manufacturing facility'
+  },
+  retail: {
+    src:'https://images.unsplash.com/photo-1481437156560-3205f6a55735?auto=format&fit=crop&w=1400&q=82',
+    alt:'Shoppers moving through a retail store'
+  },
+  'financial-services': {
+    src:'https://images.unsplash.com/photo-1616803140344-6682afb13cda?auto=format&fit=crop&w=1400&q=82',
+    alt:'Financial market information and analysis'
+  },
+  healthcare: {
+    src:'https://images.unsplash.com/photo-1512678080530-7760d81faba6?auto=format&fit=crop&w=1400&q=82',
+    alt:'Healthcare professionals working in a hospital'
+  },
+  technology: {
+    src:'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1400&q=82',
+    alt:'Digital technology and connected infrastructure'
+  },
+  logistics: {
+    src:'https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=1400&q=82',
+    alt:'Freight moving through a global logistics network'
+  },
+  textiles: {
+    src:'https://images.unsplash.com/photo-1655122878062-a9e885391a1b?auto=format&fit=crop&w=1400&q=82',
+    alt:'Fabric and textile production'
+  },
+  trade: {
+    src:'https://images.unsplash.com/photo-1706499856012-14f062c72b49?auto=format&fit=crop&w=1400&q=82',
+    alt:'Cargo containers supporting global trade'
+  },
+  construction: {
+    src:'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1400&q=82',
+    alt:'Construction workers on an infrastructure project'
+  },
+  'public-sector': {
+    src:'https://images.unsplash.com/photo-1780396269429-e20eaa1a1cd2?auto=format&fit=crop&w=1400&q=82',
+    alt:'Civic architecture representing public institutions'
+  }
+};
+
 function industryIconSvg(ind){
   return `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${ind.icon}</svg>`;
 }
@@ -940,10 +991,35 @@ function initIndustries(){
   if (!grid) return;
 
   const isModalGrid = grid.hasAttribute('data-modal');
+  const isEditorialGrid = grid.hasAttribute('data-editorial');
   const limit = parseInt(grid.getAttribute('data-limit') || '0', 10);
   const list = limit ? INDUSTRIES.slice(0, limit) : INDUSTRIES;
 
-  if (isModalGrid){
+  if (isEditorialGrid){
+    grid.classList.add('ind-grid--editorial');
+    grid.innerHTML = list.map(ind => {
+      const image = INDUSTRY_IMAGES[ind.slug];
+      return `
+        <a class="ind-story" href="industry-${ind.slug}.html" aria-label="Explore ${ind.name}">
+          <span class="ind-story-media">
+            <img src="${image.src}" alt="${image.alt}" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+          </span>
+          <span class="ind-story-shade" aria-hidden="true"></span>
+          <span class="ind-story-content">
+            <span class="ind-story-label">Industry</span>
+            <span class="ind-story-title">${ind.name}</span>
+            <span class="ind-story-summary">${ind.summary}</span>
+            <span class="ind-story-action">
+              <span>Explore this sector</span>
+              <span class="ind-story-arrow" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M14 7l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+            </span>
+          </span>
+        </a>
+      `;
+    }).join('');
+  } else if (isModalGrid){
     grid.innerHTML = list.map(ind => `
       <button class="ind" type="button" data-slug="${ind.slug}">
         <div class="ico">${industryIconSvg(ind)}</div>
