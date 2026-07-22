@@ -31,6 +31,7 @@ function validUrl(value) {
 const industries = records('industries');
 const papers = records('papers');
 const people = records('people');
+const pages = records('pages');
 const industrySlugs = new Set();
 for (const industry of industries) {
   const label = `Industry ${industry.file}`;
@@ -79,9 +80,48 @@ for (const person of people) {
   if (!(person.image || person.image_url)) warnings.push(`${label}: no image is stored`);
 }
 
+const pageSlugs = new Set();
+const pagesBySlug = {};
+for (const page of pages) {
+  const label = `Page ${page.file}`;
+  ['slug', 'published'].forEach((field) => requireValue(page, field, label));
+  if (pageSlugs.has(page.slug)) errors.push(`${label}: duplicate slug ${page.slug}`);
+  pageSlugs.add(page.slug);
+  pagesBySlug[page.slug] = page;
+}
+
+const globalSettingsPath = path.join(contentRoot, 'settings', 'global.json');
+let globalSettings = {};
+if (!fs.existsSync(globalSettingsPath)) {
+  errors.push('Settings: content/settings/global.json is missing');
+} else {
+  globalSettings = JSON.parse(fs.readFileSync(globalSettingsPath, 'utf8'));
+  ['footer_tagline', 'footer_email', 'copyright_line'].forEach((field) => requireValue(globalSettings, field, 'Settings global.json'));
+}
+
+// Every `<!-- cms:scope.field -->` marker in the root HTML pages must resolve to a real
+// field in content/pages/<scope>.json or content/settings/global.json, otherwise the
+// build script silently leaves the marker's old placeholder text in place.
+const cmsMarkerPattern = /<!-- cms:([\w-]+\.[\w-]+) -->/g;
+let markerCount = 0;
+for (const filename of fs.readdirSync(root).filter((name) => name.endsWith('.html'))) {
+  const html = fs.readFileSync(path.join(root, filename), 'utf8');
+  for (const match of html.matchAll(cmsMarkerPattern)) {
+    markerCount += 1;
+    const [scope, field] = match[1].split('.');
+    const source = scope === 'global' ? globalSettings : pagesBySlug[scope];
+    if (!source) {
+      errors.push(`${filename}: cms:${match[1]} references unknown page "${scope}"`);
+    } else if (!(field in source)) {
+      errors.push(`${filename}: cms:${match[1]} references unknown field "${field}"`);
+    }
+  }
+}
+
 console.log(`Industries: ${industries.length}`);
 console.log(`Papers: ${papers.length} (${placementCount} industry placements)`);
 console.log(`People: ${people.length}`);
+console.log(`Pages: ${pages.length} (${markerCount} cms markers checked)`);
 if (warnings.length) {
   console.log(`Warnings: ${warnings.length}`);
   warnings.forEach((warning) => console.log(`- ${warning}`));

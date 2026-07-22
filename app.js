@@ -4,319 +4,319 @@
 /* Verified against the live Infisum article pages and their publication links. */
 const PAPER_LINKS = window.INFISUM_CONTENT?.paperLinks || {
   "A Graphics Design Framework to Visualize Multi-dimensional Economic Datasets": {
-    "pageUrl": "https://infisum.com/2020/04/23/a-graphics-design-framework-to-visualize-multi-dimensional-economic-datasets/",
+    "pageUrl": null,
     "paperUrl": "https://www.edgj.org/index.php/EDGJ/article/download/385/278/0"
   },
   "A Method to Analyze the Sectoral Impact of Fiscal Support for COVID-19 Affected Economies: The Case of Oceania": {
-    "pageUrl": "https://infisum.com/2021/09/24/a-method-to-analyze-the-sectoral-impact-of-fiscal-support-for-covid-19-affected-economies-the-case-of-oceania/",
+    "pageUrl": null,
     "paperUrl": null
   },
   "A Quantitative Assessment of Economic Impact of Trade Wars and the â€˜Make in Indiaâ€™ Program": {
-    "pageUrl": "https://infisum.com/2021/09/23/a-quantitative-assessment-of-economic-impact-of-trade-wars-and-the-make-in-india-program/",
+    "pageUrl": null,
     "paperUrl": "https://artnet.unescap.org/publications/working-papers/quantitative-assessment-economic-impact-trade-wars-and-make-india"
   },
   "Agricultural Production, Irrigation, Climate Change, and Water Scarcity in India": {
-    "pageUrl": "https://infisum.com/2020/04/21/agricultural-production-irrigation-climate-change-and-water-scarcity-in-india/",
-    "paperUrl": "https://infisum.com/wp-content/uploads/2020/04/AAEA_2015_India_Final.pdf"
+    "pageUrl": null,
+    "paperUrl": "assets/content/papers/AAEA_2015_India_Final.pdf"
   },
   "An Analysis of Long-Run Environmental Impacts and Multi-Criteria-Based Prioritization of the Natural Dyes in the Indian Textile Industry": {
-    "pageUrl": "https://infisum.com/2020/04/22/an-analysis-of-long-run-environmental-impacts-and-multi-criteria-based-prioritization-of-the-natural-dyes-in-the-indian-textile-industry/",
+    "pageUrl": null,
     "paperUrl": null
   },
   "An Updated Assessment of the Economic Impact of COVID-19": {
-    "pageUrl": "https://infisum.com/2021/06/30/an-updated-assessment-of-the-economic-impact-of-covid-19-2/",
+    "pageUrl": null,
     "paperUrl": "https://www.adb.org/sites/default/files/publication/604206/adb-brief-133-updated-economic-impact-covid-19.pdf"
   },
   "Analysing the Effects of the COVID-19 Pandemic on Medical Supply Chains in Commonwealth Countries": {
-    "pageUrl": "https://infisum.com/2020/10/01/analysing-the-effects-of-the-covid-19-pandemic-on-medical-supply-chains-in-commonwealth-countries/",
+    "pageUrl": null,
     "paperUrl": null
   },
   "Analysis of Indiaâ€™s Competitive Position in RCEP": {
-    "pageUrl": "https://infisum.com/2021/09/24/analysis-of-indias-competitive-position-in-rcep/",
+    "pageUrl": null,
     "paperUrl": null
   },
   "Analysis of the Role of Tariff Concessions in East Asia": {
-    "pageUrl": "https://infisum.com/2020/04/21/analysis-of-the-role-of-tariff-concessions-in-east-asia/",
+    "pageUrl": null,
     "paperUrl": "https://econpapers.repec.org/paper/ngidpaper/16-21.htm"
   },
   "Analyzing the Potential Market for MSMEs in India": {
-    "pageUrl": "https://infisum.com/2023/04/20/analyzing-the-potential-market-for-msmes-in-india/",
+    "pageUrl": null,
     "paperUrl": "https://armgpublishing.com/journals/sec/volume-7-issue-1/article-9/"
   },
   "Assessing the Costs of Tariffs on the US ICT Industry: Modeling US-China Tariffs": {
-    "pageUrl": "https://infisum.com/2020/04/23/assessing-the-costs-of-tariffs-on-the-us-ict-industry-modeling-us-china-tariffs/",
+    "pageUrl": null,
     "paperUrl": "https://rhg.com/research/assessing-the-costs-of-tariffs-on-the-us-ict-industry/"
   },
   "Assessing the Economic Impact of the Trade Agreement Between the EU and Signatory Countries of the Andean Community": {
-    "pageUrl": "https://infisum.com/2020/04/22/assessing-the-economic-impact-of-the-trade-agreement-between-the-eu-and-signatory-countries-of-the-andean-community-columbia-and-peru/",
+    "pageUrl": null,
     "paperUrl": null
   },
   "AtmaNirbhar Auto Industry: The China Factor": {
-    "pageUrl": "https://infisum.com/2021/09/12/atmanirbhar-auto-industry-the-china-factor-2/",
+    "pageUrl": null,
     "paperUrl": "https://auto.economictimes.indiatimes.com/news/industry/atmanirbhar-auto-industry-the-china-factor/77862594"
   },
   "Barriers in Implementation of Sanitation Projects: A Case Study of Open Defecation Free (ODF) India": {
-    "pageUrl": "https://infisum.com/2022/08/05/barriers-in-implementation-of-sanitation-projects-a-case-study-of-open-defecation-free-odf-india/",
+    "pageUrl": null,
     "paperUrl": "https://www.cdes.org.in/wp-content/uploads/2020/06/1-Barriers-in-Implementation-of-Sanitation-Projects-A-Case-Study-of-Open-Defecation-Free-ODF-India.pdf"
   },
   "Barriers in Improving Education Quality: A Case Study of Rural India": {
-    "pageUrl": "https://infisum.com/2022/08/05/barriers-in-improving-education-quality-a-case-study-of-rural-india-2/",
+    "pageUrl": null,
     "paperUrl": null
   },
   "Beyond the Supercycle: How Technology Is Reshaping Resources": {
-    "pageUrl": "https://infisum.com/2020/04/21/beyond-the-supercycle-how-technology-is-reshaping-resources-a-mckinsey-report/",
+    "pageUrl": null,
     "paperUrl": "https://www.mckinsey.com/~/media/McKinsey/Business%20Functions/Sustainability/Our%20Insights/How%20technology%20is%20reshaping%20supply%20and%20demand%20for%20natural%20resources/MGI-Beyond-the-Supercycle-Full-report.ashx"
   },
   "Budget 2016â€“17: Farmers Have Got Their Due Share": {
-    "pageUrl": "https://infisum.com/2020/04/21/budget-2016-17-farmers-have-got-their-due-share/",
+    "pageUrl": null,
     "paperUrl": "https://swarajyamag.com/economy/budget-2016-17-farmers-have-got-their-due-share"
   },
   "COVID-19 Impact on International Migration, Remittances, and Recipient Households in Developing Asia": {
-    "pageUrl": "https://infisum.com/2020/10/03/covid-19-impact-on-international-migration-remittances-recipient-households-in-developing-asia/",
+    "pageUrl": null,
     "paperUrl": "https://www.adb.org/sites/default/files/publication/622796/covid-19-impact-migration-remittances-asia.pdf"
   },
   "COVID-19 Pandemic: The Impact of the Virus on Indiaâ€™s GDP": {
-    "pageUrl": "https://infisum.com/2021/03/05/covid-19-pandemic-the-impact-of-the-virus-on-indias-gdp/",
+    "pageUrl": null,
     "paperUrl": null
   },
   "COVID-19: An Opportunity to Shift the Focus from Megacities to Small Towns": {
-    "pageUrl": "https://infisum.com/2021/03/05/covid-19-an-opportunity-to-shift-the-focus-from-megacities-to-small-towns/",
+    "pageUrl": null,
     "paperUrl": "https://www.moneycontrol.com/news/opinion/covid-19-an-opportunity-to-shift-the-focus-from-megacities-to-small-towns-5138121.html"
   },
   "COVID-19: Disruptive Tech and SME Innovation Can Boost the Fight Against the Virus": {
-    "pageUrl": "https://infisum.com/2021/03/07/covid-19-disruptive-tech-and-sme-innovation-can-boost-the-fight-against-the-virus/",
+    "pageUrl": null,
     "paperUrl": null
   },
   "Can Mergers Be Useful to Face Trade Liberalisation? The Role of Technology": {
-    "pageUrl": "https://infisum.com/2020/04/21/can-mergers-be-useful-to-face-trade-liberalisation-the-role-of-technology/",
+    "pageUrl": null,
     "paperUrl": "https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxiYWRyaW5hcmF5YW5hbmd8Z3g6MzU4YWFlOTMyMDgyMDc2YQ"
   },
   "Decarbonization and Global Value Chains in ASEAN": {
-    "pageUrl": "https://infisum.com/2023/04/21/decarbonization-and-global-value-chains-in-asean/",
+    "pageUrl": null,
     "paperUrl": "https://www.adb.org/sites/default/files/publication/871976/asean-global-value-chains-resilience-sustainability.pdf"
   },
   "Does Tariff Escalation Affect Export Shares? The Case of Cotton and Coffee in Global Trade": {
-    "pageUrl": "https://infisum.com/2020/04/20/does-tariff-escalation-affect-export-shares-the-case-of-cotton-and-coffee-in-global-trade/",
+    "pageUrl": null,
     "paperUrl": "https://ideas.repec.org/p/ags/aaea11/103946.html"
   },
   "Economics of Recommendation Systems: The Role of Customer Responsiveness to Prices and Quality": {
-    "pageUrl": "https://infisum.com/2020/04/23/economics-of-recommendations-systems-the-role-of-customer-responsiveness-to-prices-and-quality/",
+    "pageUrl": null,
     "paperUrl": null
   },
   "Effects of Phasing Out of MFA Quotas on Indian Garment Exports, 1992â€“2003": {
-    "pageUrl": "https://infisum.com/2020/04/22/effects-of-phasing-out-of-mfa-quotas-on-indian-garment-exports-1992-2003/",
+    "pageUrl": null,
     "paperUrl": "https://ideas.repec.org/a/eaa/eerese/v8y2008i8_4.html"
   },
   "Emissions, Temperature and Economic Growth: An Empirical Analysis of Europe": {
-    "pageUrl": "https://infisum.com/2022/08/05/emissions-temperature-and-economic-growth-an-empirical-analysis-of-europe/",
+    "pageUrl": null,
     "paperUrl": "https://eprajournals.com/jpanel/upload/822pm_71.EPRA%20JOURNALS-2816.pdf"
   },
   "Energy Subsidies in Russia": {
-    "pageUrl": "https://infisum.com/2022/08/08/energy-subsidies-in-russia/",
+    "pageUrl": null,
     "paperUrl": "https://documents1.worldbank.org/curated/en/099125011302110190/pdf/P1750280ca1db807e08cea076ac354e401b.pdf"
   },
   "Environmental Effects of AfCFTA": {
-    "pageUrl": "https://infisum.com/2021/10/08/environmental-effects-of-afcfta/",
+    "pageUrl": null,
     "paperUrl": "https://www.atlantis-press.com/journals/jat/125959229"
   },
   "Exchange Rate, Productivity and Exports: The Case of Indian Textile Sector": {
-    "pageUrl": "https://infisum.com/2020/04/22/exchange-rate-productivity-and-exports-the-case-of-indian-textile-sector/",
+    "pageUrl": null,
     "paperUrl": "http://www.ispepune.org.in/PDF%20ISSUE/2005/web405/0030002.PDF"
   },
   "Export Subsidy Reforms and Productivity Improvements: The Case of the Indian Textile and Clothing Sector": {
-    "pageUrl": "https://infisum.com/2020/04/22/export-subsidy-reforms-and-productivity-improvements-the-case-of-the-indian-textile-and-clothing-sector/",
+    "pageUrl": null,
     "paperUrl": null
   },
   "Extending the GTAP Framework for Public Procurement Analysis": {
-    "pageUrl": "https://infisum.com/2020/04/22/extending-the-gtap-framework-for-public-procurement-analysis/",
+    "pageUrl": null,
     "paperUrl": "https://econpapers.repec.org/paper/gtaworkpp/5146.htm"
   },
   "Financial Inclusion in Rural India: A Case Study of Mahuapur": {
-    "pageUrl": "https://infisum.com/2022/08/09/financial-inclusion-in-rural-india-a-case-study-of-mahuapur/",
+    "pageUrl": null,
     "paperUrl": null
   },
   "Financial Market and Growth: Evidence from Post-reforms India": {
-    "pageUrl": "https://infisum.com/2020/04/21/financial-market-and-growth-evidence-from-post-reforms-india/",
+    "pageUrl": null,
     "paperUrl": null
   },
   "Fossil Fuel Producing Economies Have Greater Potential for Interfuel Substitution": {
-    "pageUrl": "https://infisum.com/2020/04/21/fossil-fuel-producing-economies-have-greater-potential-for-interfuel-substitution/",
+    "pageUrl": null,
     "paperUrl": "https://www.gtap.agecon.purdue.edu/resources/res_display.asp?RecordID=4220"
   },
   "Global Economy Could Lose Over $4 Trillion Due to COVID-19 Impact on Tourism": {
-    "pageUrl": "https://infisum.com/2021/09/24/global-economy-could-lose-over-4-trillion-due-covid-19-impact-tourism/",
+    "pageUrl": null,
     "paperUrl": null
   },
   "Global Land-Use Change and Greenhouse Gas Emissions Due to Recent European Biofuel Policies": {
-    "pageUrl": "https://infisum.com/2020/04/21/global-land-use-change-and-greenhouse-gas-emissions-due-to-recent-european-biofuel-policies/",
+    "pageUrl": null,
     "paperUrl": "https://gtap.agecon.purdue.edu/uploads/resources/download/7192.pdf"
   },
   "Globalization in Transition: The Future of Trade and Value Chains": {
-    "pageUrl": "https://infisum.com/2020/04/23/globalization-in-transition-the-future-of-trade-and-value-chains-a-mckinsey-report/",
+    "pageUrl": null,
     "paperUrl": null
   },
   "Green Shoots in an Altered Mobility Landscape: The Way Ahead": {
-    "pageUrl": "https://infisum.com/2021/04/25/green-shoots-in-an-altered-mobility-landscape-the-way-ahead-2/",
+    "pageUrl": null,
     "paperUrl": "https://auto.economictimes.indiatimes.com/news/two-wheelers/opinion-green-shoots-in-an-altered-mobility-landscape-the-way-ahead/77758924"
   },
   "Growth, Instability and Trends in Area, Production and Productivity of Coconuts in India": {
-    "pageUrl": "https://infisum.com/2022/08/05/growth-instability-and-trends-in-area-production-and-productivity-of-coconuts-in-india/",
+    "pageUrl": null,
     "paperUrl": "https://80f93c2b-6c56-40aa-99a0-3ef9478c207d.filesusr.com/ugd/59ccff_9f936a56aa1b40b7b6da6e6cc1f86664.pdf"
   },
   "How Disruptive Technologies Are Changing Global Trade": {
-    "pageUrl": "https://infisum.com/2021/03/07/how-disruptive-technologies-are-changing-global-trade/",
+    "pageUrl": null,
     "paperUrl": "https://www.policycircle.org/opinion/cause-and-effect-how-disruptive-technologies-are-changing-global-trade/"
   },
   "Impact of COVID-19 on the Indian Economy and Auto Industry": {
-    "pageUrl": "https://infisum.com/2021/03/07/covid-19-impact-on-indian-economy-and-the-auto-industry-whats-ahead-of-us/",
+    "pageUrl": null,
     "paperUrl": "https://auto.economictimes.indiatimes.com/news/industry/opinion-covid-19-impact-on-indian-economy-and-the-auto-industry-whats-ahead-of-us/74862940"
   },
   "Impact of Cross-Border Digital Transmissions on MSMEs in South Africa": {
-    "pageUrl": "https://infisum.com/2025/01/23/impact-of-cross-border-digital-transmissions-on-msmes-in-south-africa/",
-    "paperUrl": "https://infisum.com/wp-content/uploads/2024/02/MSME-WTOMoratorium-SouthAfrica.pdf"
+    "pageUrl": null,
+    "paperUrl": "assets/content/papers/MSME-WTOMoratorium-SouthAfrica.pdf"
   },
   "Implications of History for Current Policies and Industrial Structure: The Case of Indian Textile Sector": {
-    "pageUrl": "https://infisum.com/2020/04/22/implications-of-history-for-the-current-policies-and-industrial-structure-the-case-of-indian-textile-sector/",
+    "pageUrl": null,
     "paperUrl": null
   },
   "Indian MSMEs Set to Be Global Disruptors in Textiles, Clothing, Electrical Equipment Sectors": {
-    "pageUrl": "https://infisum.com/2023/04/21/indian-msmes-set-to-be-global-disruptors-in-textiles-clothing-electrical-equipment-sectors/",
+    "pageUrl": null,
     "paperUrl": null
   },
   "Indian Small Business Benefits from the WTO Moratorium on Duties on Electronic Transmissions": {
-    "pageUrl": "https://infisum.com/2025/01/23/press-release-indian-small-business-benefits-from-the-wto-moratorium-on-duties-on-electronic-transmissions-from-gains-in-productivity-to-job-growth-2/",
+    "pageUrl": null,
     "paperUrl": null
   },
   "Indiaâ€™s Budget 2016â€“17: A Quick Review": {
-    "pageUrl": "https://infisum.com/2020/04/21/indias-budget-2016-17-a-quick-review/",
+    "pageUrl": null,
     "paperUrl": "http://www.marketexpress.in/2016/03/india-budget-2016-17-a-quick-review.html"
   },
   "Indiaâ€™s EV Policy: Missing Elements in the Electric Vehicle Policy Ecosystem": {
-    "pageUrl": "https://infisum.com/2021/03/07/indias-ev-policy-missing-elements-in-the-electric-vehicle-policy-ecosystem/",
+    "pageUrl": null,
     "paperUrl": "https://auto.economictimes.indiatimes.com/news/opinion-missing-elements-in-the-electric-vehicle-policy-ecosystem/76106094"
   },
   "Interactions between Technology, Profits, Welfare and Profit Effects of Mergers with Trade Restrictions": {
-    "pageUrl": "https://infisum.com/2020/04/21/interactions-between-technology-profits-welfare-and-profit-effects-of-mergers-with-trade-restrictions/",
+    "pageUrl": null,
     "paperUrl": null
   },
   "Is There a Monopoly in the Global Digital Services Sector?": {
-    "pageUrl": "https://infisum.com/2021/05/06/is-there-a-monopoly-in-the-global-digital-services-sector/",
+    "pageUrl": null,
     "paperUrl": null
   },
   "Mega Regional Trade Agreements: Costly Distractions for Developing Countries?": {
-    "pageUrl": "https://infisum.com/2020/04/29/mega-regional-trade-agreements-costly-distractions-for-developing-countries/",
+    "pageUrl": null,
     "paperUrl": null
   },
   "Mining the Change of Customer Behavior in Dynamic Markets": {
-    "pageUrl": "https://infisum.com/2020/04/23/mining-the-change-of-customer-behavior-in-dynamic-markets/",
+    "pageUrl": null,
     "paperUrl": null
   },
   "Opinion: Disruptive Tech to Drive Aquaculture": {
-    "pageUrl": "https://infisum.com/2022/08/12/opinion-disruptive-tech-to-drive-aquaculture/",
+    "pageUrl": null,
     "paperUrl": "https://telanganatoday.com/opinion-disruptive-tech-to-drive-aquaculture"
   },
   "Potential Economic Impact of COVID-19-Related School Closures": {
-    "pageUrl": "https://infisum.com/2022/08/09/potential-economic-impact-of-covid-19-related-school-closures/",
+    "pageUrl": null,
     "paperUrl": "https://www.adb.org/sites/default/files/publication/794821/ewp-657-economic-impact-covid-19-related-school-closures.pdf"
   },
   "Potential Economic Impact of Fixing the Inverted Customs Duty Structure: The Case of Indian Viscose Fibers": {
-    "pageUrl": "https://infisum.com/2023/04/20/potential-economic-impact-of-fixing-the-inverted-customs-duty-structure-the-case-of-indian-viscose-fibers/",
+    "pageUrl": null,
     "paperUrl": null
   },
   "Potential Effects of the Trans-Pacific Partnership on Forest Industries": {
-    "pageUrl": "https://infisum.com/2020/04/21/potential-effects-of-trans-pacific-partnership-on-forest-industries/",
+    "pageUrl": null,
     "paperUrl": "https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxiYWRyaW5hcmF5YW5hbmd8Z3g6Mjk5MGY1ZWM1NjI2ZTFhYw"
   },
   "Potential Impact of 3D Printing on Gig Economy": {
-    "pageUrl": "https://infisum.com/2022/08/09/potential-impact-of-3d-printing-on-gig-economy/",
+    "pageUrl": null,
     "paperUrl": "https://link.springer.com/chapter/10.1007/978-981-16-8406-7_19?error=cookies_not_supported&code=001e7c4d-a81f-4406-82e4-243c8370ab75"
   },
   "Road Ahead for Indian Auto Industry â€“ Short Term vis-Ã -vis Long Term Recovery": {
-    "pageUrl": "https://infisum.com/2021/04/25/road-ahead-for-indian-auto-industry-short-term-vis-a-vis-long-term-recovery/",
+    "pageUrl": null,
     "paperUrl": "https://auto.economictimes.indiatimes.com/news/industry/road-ahead-for-indian-auto-industry-short-term-vis-vis-long-term-recovery/77429262"
   },
   "Role of Crop Diversification in Indiaâ€™s Agricultural Growth": {
-    "pageUrl": "https://infisum.com/2021/09/07/role-of-crop-diversification-in-indias-agricultural-growth/",
+    "pageUrl": null,
     "paperUrl": null
   },
   "Science, Technology and Innovation Policy 2020: A Way Forward": {
-    "pageUrl": "https://infisum.com/2021/03/07/science-technology-and-innovation-policy-2020-a-way-forward/",
+    "pageUrl": null,
     "paperUrl": null
   },
   "Social and Economic Impact of Non-Communicable Diseases": {
-    "pageUrl": "https://infisum.com/2020/04/22/global-social-and-economic-impact-of-select-non-communicable-diseases/",
+    "pageUrl": null,
     "paperUrl": null
   },
   "Socio-Economic Analysis of Effectiveness of Implementation of an Employment Guarantee Scheme at Local Level: A Study of a Village in India": {
-    "pageUrl": "https://infisum.com/2022/08/05/socio-economic-analysis-of-effectiveness-of-implementation-of-an-employment-guarantee-scheme-at-local-level-a-study-of-a-village-in-india/",
+    "pageUrl": null,
     "paperUrl": "https://armgpublishing.sumdu.edu.ua/journals/sec/volume-4-issue-2/article-3/"
   },
   "Textile & Steel Industry: Policy, Behavior and Demographic â€“ Are They Related?": {
-    "pageUrl": "https://infisum.com/2020/04/22/textile-steel-industry-policy-behavior-and-demographic-are-they-related/",
+    "pageUrl": null,
     "paperUrl": "http://www.marketexpress.in/2015/01/textile-steel-industry-policy-behavior-demographic-are-they-related.html"
   },
   "The Bumpy Ride Ahead for Commercial Vehicles and Transportation": {
-    "pageUrl": "https://infisum.com/2021/04/25/the-bumpy-ride-ahead-for-commercial-vehicles-and-transportation/",
+    "pageUrl": null,
     "paperUrl": "https://auto.economictimes.indiatimes.com/news/commercial-vehicle/mhcv/opinion-the-bumpy-ride-ahead-for-commercial-vehicles-and-transportation/75095248"
   },
   "The Economic Impact of Tariff Eliminations in a U.S.-U.K. Free Trade Agreement": {
-    "pageUrl": "https://infisum.com/2023/04/21/the-economic-impact-of-tariff-eliminations-in-a-u-s-u-k-free-trade-agreement/",
+    "pageUrl": null,
     "paperUrl": null
   },
   "The Impact of Indiaâ€™s Slowdown on the Commonwealth": {
-    "pageUrl": "https://infisum.com/2020/10/01/the-impact-of-indias-slowdown-on-the-commonwealth/",
+    "pageUrl": null,
     "paperUrl": null
   },
   "The Potential Impact of GHG Reductions on Air Pollution in India": {
-    "pageUrl": "https://infisum.com/2022/05/30/the-potential-impact-of-ghg-reductions-on-air-pollution-in-india/",
+    "pageUrl": null,
     "paperUrl": "https://www.tandfonline.com/doi/abs/10.1080/13547860.2021.1917486"
   },
   "The Proposed EU-India FTA: Implications for Textiles, Wearing Apparel and Leather Products": {
-    "pageUrl": "https://infisum.com/2020/04/22/the-proposed-eu-india-fta-implications-for-textiles-wearing-apparel-and-leather-products/",
+    "pageUrl": null,
     "paperUrl": "https://gtap.agecon.purdue.edu/uploads/resources/download/5321.pdf"
   },
   "The Value of Cross-border Digital Transmissions to MSMEs in Indonesia: Implications for Participation in the WTO E-commerce Moratorium": {
-    "pageUrl": "https://infisum.com/2023/12/08/the-value-of-cross-border-digital-transmissions-to-msmes-in-indonesia-implications-for-participation-in-the-wto-e-commerce-moratorium-2/",
-    "paperUrl": "https://infisum.com/wp-content/uploads/2023/12/Value-of-Crossborder-Digital-Transmissions-to-MSMEs-in-Indonesia.pdf"
+    "pageUrl": null,
+    "paperUrl": "assets/content/papers/Value-of-Crossborder-Digital-Transmissions-to-MSMEs-in-Indonesia.pdf"
   },
   "Time Series Analysis of Production in Indian Textiles Sector": {
-    "pageUrl": "https://infisum.com/2020/04/22/time-series-analysis-of-production-in-indian-textiles-sector/",
+    "pageUrl": null,
     "paperUrl": "https://ideas.repec.org/a/taf/applec/v42y2010i6p759-768.html"
   },
   "Trade Policy Dilemmas Faced by India: A Tale of Two Industries": {
-    "pageUrl": "https://infisum.com/2020/04/21/trade-policy-dilemmas-faced-by-india-a-tale-of-two-industries/",
+    "pageUrl": null,
     "paperUrl": "http://www.marketexpress.in/2014/12/trade-policy-dilemmas-faced-by-india-a-tale-of-two-industries.html"
   },
   "Trade and Access to Credit in Import Destinations": {
-    "pageUrl": "https://infisum.com/2021/10/08/trade-and-access-to-credit-in-import-destinations/",
+    "pageUrl": null,
     "paperUrl": null
   },
   "Trade with China and Impacts on North American Wages": {
-    "pageUrl": "https://infisum.com/2020/04/22/trade-with-china-and-impacts-on-north-american-wages/",
+    "pageUrl": null,
     "paperUrl": null
   },
   "Transparency as a Way of Attaining Quality, Safety and Optimal Food Purchases": {
-    "pageUrl": "https://infisum.com/2021/09/24/transparency-as-a-way-of-attaining-quality-safety-and-optimal-food-purchases/",
+    "pageUrl": null,
     "paperUrl": "https://armgpublishing.sumdu.edu.ua/wp-content/uploads/2021/01/5.pdf"
   },
   "UK-Commonwealth Trade After Brexit": {
-    "pageUrl": "https://infisum.com/2022/05/30/uk-commonwealth-trade-after-brexit-3/",
+    "pageUrl": null,
     "paperUrl": "https://production-new-commonwealth-files.s3.eu-west-2.amazonaws.com/migrated/inline/ITWP_2021-05_UPDF.pdf"
   },
   "Vehicle Scrappage Scheme: A Much-Needed Policy for Auto Sector": {
-    "pageUrl": "https://infisum.com/2021/09/07/vehicle-scrappage-scheme-a-much-needed-policy-for-auto-sector/",
+    "pageUrl": null,
     "paperUrl": null
   },
   "Water Scarcity in South Asia: A Dynamic Computable General Equilibrium Analysis": {
-    "pageUrl": "https://infisum.com/2020/04/21/water-scarcity-in-south-asia-a-dynamic-computable-general-equilibrium-analysis/",
-    "paperUrl": "https://infisum.com/wp-content/uploads/2020/04/AAEA_2015_India_Dynamic.pdf"
+    "pageUrl": null,
+    "paperUrl": "assets/content/papers/AAEA_2015_India_Dynamic.pdf"
   },
   "What Will Be the Impact of Scrappage Policy on Indiaâ€™s EV Market?": {
-    "pageUrl": "https://infisum.com/2021/09/07/what-will-be-the-impact-of-scrappage-policy-on-indias-ev-market/",
+    "pageUrl": null,
     "paperUrl": "https://auto.economictimes.indiatimes.com/news/what-will-be-the-impact-of-scrappage-policy-on-indias-ev-market/83539997"
   },
   "Why Indiaâ€™s Decision to Pull Out of RCEP Has Both Pros and Cons": {
-    "pageUrl": "https://infisum.com/2020/04/16/why-indias-decision-to-pull-out-of-rcep-has-both-pros-and-cons/",
+    "pageUrl": null,
     "paperUrl": "https://economictimes.indiatimes.com/prime/economy-and-policy/why-indias-decision-to-pull-out-of-rcep-has-both-pros-and-cons/primearticleshow/72214498.cms"
   }
 };
@@ -1396,13 +1396,29 @@ function initPeopleDirectory(){
     if (hasUniquePhoto) {
       usedPersonImages.add(imageSrc);
       const img = document.createElement('img');
-      img.src = imageSrc;
       img.alt = person.name;
       img.loading = 'lazy';
       img.decoding = 'async';
       img.referrerPolicy = 'no-referrer';
-      img.addEventListener('error', showInitials);
+      // A dead/unresponsive host (rather than a clean 404) can leave the browser hanging on the
+      // connection well past any reasonable wait, so 'error' never fires in time. Force a fallback
+      // after 4s regardless, but still swap in the real photo if it shows up after that.
+      let fellBack = false;
+      const giveUp = setTimeout(() => { fellBack = true; showInitials(); }, 4000);
+      img.addEventListener('load', () => {
+        clearTimeout(giveUp);
+        if (fellBack) {
+          photo.classList.remove('person-photo-fallback');
+          photo.textContent = '';
+          photo.appendChild(img);
+        }
+      });
+      img.addEventListener('error', () => {
+        clearTimeout(giveUp);
+        if (!fellBack) { fellBack = true; showInitials(); }
+      });
       photo.appendChild(img);
+      img.src = imageSrc;
     } else {
       showInitials();
     }

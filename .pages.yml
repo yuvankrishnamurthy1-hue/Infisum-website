@@ -241,3 +241,149 @@ content:
           - name: href
             label: Link
             type: string
+
+  # Each page below is a standalone file (not a repeating collection) because every
+  # page has its own fixed set of text fields, not a uniform record shape. Add a new
+  # "type: file" entry here (with a matching content/pages/<slug>.json) for any new
+  # page that needs CMS-editable text.
+  - name: home
+    label: "Website Pages: Home"
+    type: file
+    file: content/pages/home.json
+    fields:
+      - { name: slug, type: string, required: true }
+      - { name: published, label: Show on website, type: boolean, required: true }
+      - { name: hero_heading, label: "Hero heading (before the typewriter word)", type: string }
+      - { name: hero_sub, label: Hero subheading, type: text }
+      - { name: hero_button_primary, label: "Hero button: primary", type: string }
+      - { name: hero_button_secondary, label: "Hero button: secondary", type: string }
+      - { name: stat_1_number, label: "Stat 1: number", type: string }
+      - { name: stat_1_label, label: "Stat 1: label", type: string }
+      - { name: stat_2_number, label: "Stat 2: number", type: string }
+      - { name: stat_2_label, label: "Stat 2: label", type: string }
+      - { name: stat_3_number, label: "Stat 3: number", type: string }
+      - { name: stat_3_label, label: "Stat 3: label", type: string }
+      - { name: clients_label, label: Clients marquee label, type: string }
+      - { name: about_heading, label: "About preview: heading", type: string }
+      - { name: about_lede, label: "About preview: lede", type: text }
+      - { name: about_paragraph, label: "About preview: paragraph", type: text }
+      - { name: about_button, label: "About preview: button", type: string }
+      - { name: about_figure_caption, label: "About preview: figure caption", type: string }
+      - { name: about_figure_sub, label: "About preview: figure subtext", type: text }
+      - { name: capabilities_heading, label: "Capabilities preview: heading", type: string }
+      - { name: capabilities_intro, label: "Capabilities preview: intro", type: text }
+      - { name: industries_heading, label: "Industries preview: heading", type: string }
+      - { name: industries_intro, label: "Industries preview: intro", type: text }
+      - { name: industries_button, label: "Industries preview: button", type: string }
+      - { name: spotlight_heading, label: "Spotlight preview: heading", type: string }
+      - { name: spotlight_intro, label: "Spotlight preview: intro", type: text }
+      - { name: cta_heading, label: "Closing CTA: heading", type: string }
+      - { name: cta_text, label: "Closing CTA: text", type: text }
+      - { name: cta_button, label: "Closing CTA: button", type: string }
+
+  - name: about-page
+    label: "Website Pages: About"
+    type: file
+    file: content/pages/about.json
+    fields:
+      - { name: slug, type: string, required: true }
+      - { name: published, label: Show on website, type: boolean, required: true }
+      - { name: hero_heading, label: Hero heading, type: string }
+      - { name: hero_lead, label: Hero lead, type: text }
+      - { name: story_heading, label: "Our story: heading", type: string }
+      - { name: story_lede, label: "Our story: lede", type: text }
+      - { name: story_paragraph_1, label: "Our story: paragraph 1", type: text }
+      - { name: story_paragraph_2, label: "Our story: paragraph 2", type: text }
+      - { name: figure_caption, label: Figure caption, type: string }
+      - { name: figure_sub, label: Figure subtext, type: text }
+      - { name: people_heading, label: "Our people: heading", type: string }
+      - { name: people_intro, label: "Our people: intro", type: text }
+      - { name: clients_heading, label: "Clients: heading", type: string }
+      - { name: clients_intro, label: "Clients: intro", type: text }
+      - { name: partners_heading, label: "Partners: heading", type: string }
+      - { name: partners_intro, label: "Partners: intro", type: text }
+      - { name: cta_heading, label: "Closing CTA: heading", type: string }
+      - { name: cta_text, label: "Closing CTA: text", type: text }
+      - { name: cta_button, label: "Closing CTA: button", type: string }
+
+  - name: capabilities-page
+    label: "Website Pages: Capabilities"
+    type: file
+    file: content/pages/capabilities.json
+    fields:
+      - { name: slug, type: string, required: true }
+      - { name: published, label: Show on website, type: boolean, required: true }
+      - { name: hero_heading, label: Hero heading, type: string }
+      - { name: hero_lead, label: Hero lead, type: text }
+      - { name: deliverables_heading, label: "Deliverables: heading", type: string }
+      - { name: cta_heading, label: "Closing CTA: heading", type: string }
+      - { name: cta_text, label: "Closing CTA: text", type: text }
+      - { name: cta_button, label: "Closing CTA: button", type: string }
+    description: >-
+      The 4 capability tabs and 4 deliverable cards stay hardcoded in
+      capabilities.html — they change rarely and are easier to edit directly
+      in the HTML than through a form.
+
+  - name: spotlight-page
+    label: "Website Pages: Spotlight"
+    type: file
+    file: content/pages/spotlight.json
+    fields:
+      - { name: slug, type: string, required: true }
+      - { name: published, label: Show on website, type: boolean, required: true }
+      - { name: hero_heading, label: Hero heading, type: string }
+      - { name: hero_lead, label: Hero lead, type: text }
+      - { name: cta_heading, label: "Closing CTA: heading", type: string }
+      - { name: cta_text, label: "Closing CTA: text", type: text }
+      - { name: cta_button, label: "Closing CTA: button", type: string }
+
+  - name: contact-page
+    label: "Website Pages: Contact"
+    type: file
+    file: content/pages/contact.json
+    fields:
+      - { name: slug, type: string, required: true }
+      - { name: published, label: Show on website, type: boolean, required: true }
+      - { name: hero_heading, label: Hero heading, type: string }
+      - { name: hero_lead, label: Hero lead, type: text }
+      - { name: contact_heading, label: "Contact section: heading", type: string }
+      - { name: contact_intro, label: "Contact section: intro", type: text }
+      - { name: location_country, label: "Office: country", type: string }
+      - { name: location_city, label: "Office: city", type: string }
+      - { name: location_address, label: "Office: address (may include <br> line breaks)", type: text }
+      - { name: location_phone_display, label: "Office: displayed phone number", type: string, description: "Display text only — does not change the tel: link itself." }
+      - { name: location_email_display, label: "Office: displayed email address", type: string, description: "Display text only — does not change the mailto: link or the form's delivery address." }
+      - { name: form_note_response, label: "Form note: response time", type: string }
+      - { name: submit_button, label: "Form: submit button text", type: string }
+      - { name: form_note_privacy, label: "Form note: privacy", type: string }
+
+  - name: privacy-page
+    label: "Website Pages: Privacy Policy"
+    type: file
+    file: content/pages/privacy.json
+    fields:
+      - { name: slug, type: string, required: true }
+      - { name: published, label: Show on website, type: boolean, required: true }
+      - { name: hero_heading, label: Hero heading, type: string }
+      - { name: hero_lead, label: Hero lead, type: text }
+      - { name: section_1_heading, label: "Section 1: heading", type: string }
+      - { name: section_1_body, label: "Section 1: body", type: text }
+      - { name: section_2_heading, label: "Section 2: heading", type: string }
+      - { name: section_2_body, label: "Section 2: body", type: text }
+      - { name: section_3_heading, label: "Section 3: heading", type: string }
+      - { name: section_3_body, label: "Section 3: body (may include HTML links)", type: text }
+      - { name: section_4_heading, label: "Section 4: heading", type: string }
+      - { name: section_4_body, label: "Section 4: body", type: text }
+      - { name: section_5_heading, label: "Section 5: heading", type: string }
+      - { name: section_5_body, label: "Section 5: body", type: text }
+      - { name: section_6_heading, label: "Section 6: heading", type: string }
+      - { name: section_6_body, label: "Section 6: body (may include HTML links)", type: text }
+
+  - name: global-settings
+    label: "Website Pages: Global (footer)"
+    type: file
+    file: content/settings/global.json
+    fields:
+      - { name: footer_tagline, label: Footer tagline, type: text }
+      - { name: footer_email, label: "Footer contact email (display text)", type: string }
+      - { name: copyright_line, label: Copyright line, type: string }

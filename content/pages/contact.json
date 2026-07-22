@@ -1,0 +1,16 @@
+{
+  "slug": "contact",
+  "published": true,
+  "hero_heading": "Start with the decision.",
+  "hero_lead": "Tell us what you need to understand. We will explain how we can model it.",
+  "contact_heading": "Contact us.",
+  "contact_intro": "Use the form or contact us directly.",
+  "location_country": "USA",
+  "location_city": "Washington",
+  "location_address": "Infinite Sum Modelling LLC<br>21746 SE 3rd PL<br>Sammamish, WA 98074",
+  "location_phone_display": "+1 (425) 270-3552",
+  "location_email_display": "sumathi@infisum.com",
+  "form_note_response": "We usually get back to you within two business days.",
+  "submit_button": "Send message",
+  "form_note_privacy": "We'll only use these details to reply to your message."
+}

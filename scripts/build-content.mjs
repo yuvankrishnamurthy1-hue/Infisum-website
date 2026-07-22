@@ -49,6 +49,10 @@ const industries = readRecords('industries').sort((a, b) => a.order - b.order ||
 const papers = readRecords('papers').sort((a, b) => a.title.localeCompare(b.title));
 const people = readRecords('people').sort((a, b) => a.group.localeCompare(b.group) || a.order - b.order || a.name.localeCompare(b.name));
 
+const pagesBySlug = Object.fromEntries(readRecords('pages').map((page) => [page.slug, page]));
+const globalSettingsPath = path.join(contentRoot, 'settings', 'global.json');
+const globalSettings = fs.existsSync(globalSettingsPath) ? JSON.parse(fs.readFileSync(globalSettingsPath, 'utf8')) : {};
+
 const runtimeIndustries = industries.map((industry) => ({
   slug: industry.slug,
   name: industry.name,
@@ -106,12 +110,27 @@ for (const industry of industries) {
 }
 fs.writeFileSync(path.join(dist, 'paper-images.js'), `window.PAPER_CARD_IMAGES = ${JSON.stringify(paperImages, null, 2)};\n`, 'utf8');
 
+// Replaces every `<!-- cms:scope.field -->...<!-- /cms:scope.field -->` marker pair in a
+// page with the matching content/pages/<scope>.json or content/settings/global.json value.
+// The markers themselves are kept in the output so the page stays editable after future builds.
+const cmsMarkerPattern = /<!-- cms:([\w-]+\.[\w-]+) -->([\s\S]*?)<!-- \/cms:\1 -->/g;
+function applyCmsMarkers(html) {
+  return html.replace(cmsMarkerPattern, (match, key) => {
+    const [scope, field] = key.split('.');
+    const source = scope === 'global' ? globalSettings : pagesBySlug[scope];
+    const value = source ? source[field] : undefined;
+    if (value === undefined || value === null) return match;
+    return `<!-- cms:${key} -->${value}<!-- /cms:${key} -->`;
+  });
+}
+
 for (const filename of fs.readdirSync(dist).filter((name) => name.endsWith('.html'))) {
   const filePath = path.join(dist, filename);
   let html = fs.readFileSync(filePath, 'utf8');
   if (!html.includes('content-runtime.js')) {
     html = html.replace('<script src="app.js"></script>', '<script src="content-runtime.js"></script>\n<script src="app.js"></script>');
   }
+  html = applyCmsMarkers(html);
 
   const industryMatch = filename.match(/^industry-([a-z0-9-]+)\.html$/);
   if (industryMatch) {
@@ -120,7 +139,7 @@ for (const filename of fs.readdirSync(dist).filter((name) => name.endsWith('.htm
       .flatMap((paper) => paper.placements.filter((placement) => placement.industry === industry).map((placement) => ({ paper, placement })))
       .sort((a, b) => a.placement.order - b.placement.order);
     const cards = placements.map(({ paper, placement }) => (
-      `      <a class="paper-card" href="#paper-detail" data-paper-title="${escapeHtml(paper.title)}" data-paper-category="${escapeHtml(placement.category || 'Research')}" data-source-url="${escapeHtml(paper.source_url || '')}"><span class="tag">Research ${String(placement.order).padStart(2, '0')}</span><h3>${escapeHtml(paper.title)}</h3><p>Select this paper to open its summary record.</p><span class="paper-arr" aria-hidden="true">→</span></a>`
+      `      <a class="paper-card" href="#paper-detail" data-paper-title="${escapeHtml(paper.title)}" data-paper-category="${escapeHtml(placement.category || 'Research')}"><span class="tag">Research ${String(placement.order).padStart(2, '0')}</span><h3>${escapeHtml(paper.title)}</h3><p>Select this paper to open its summary record.</p><span class="paper-arr" aria-hidden="true">→</span></a>`
     )).join('\n');
 
     const libraryPattern = /(<section class="band tight paper-library-section"[\s\S]*?<div class="paper-grid reveal">)[\s\S]*?(\s*<\/div>\s*<article class="paper-detail reveal")/;
@@ -134,4 +153,4 @@ for (const filename of fs.readdirSync(dist).filter((name) => name.endsWith('.htm
   fs.writeFileSync(filePath, html, 'utf8');
 }
 
-console.log(`Built ${industries.length} industries, ${papers.length} papers and ${people.length} people into dist/.`);
+console.log(`Built ${industries.length} industries, ${papers.length} papers, ${people.length} people and ${Object.keys(pagesBySlug).length} pages into dist/.`);

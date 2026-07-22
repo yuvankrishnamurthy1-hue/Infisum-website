@@ -35,11 +35,60 @@ The site uses plain HTML, CSS, and JavaScript, so it does not require a build st
   placements, card order and image.
 - `content/people/` contains one JSON record per team member or advisor.
 - `content/industries/` contains one JSON record per industry.
+- `content/pages/` contains one JSON file per page (`home.json`, `about.json`,
+  `capabilities.json`, `spotlight.json`, `contact.json`, `privacy.json`) with
+  that page's editable heading/paragraph/button text.
+- `content/settings/global.json` holds sitewide text reused in the footer on
+  every page (tagline, contact email, copyright line).
 - `.pages.yml` defines the editing forms used by Pages CMS.
 - `assets/content/` stores images uploaded through the CMS.
 
 Run `npm run content:validate` after changing records. The validator checks
 required fields, slugs, URLs, industry references, placement order and images.
+
+### How page text becomes editable (the `cms:` marker convention)
+
+Most of the site's prose (headings, ledes, button labels, CTA text) lives
+directly in the root HTML files, wrapped like this:
+
+```html
+<h1><!-- cms:about.hero_heading -->Economic insight for real decisions.<!-- /cms:about.hero_heading --></h1>
+```
+
+The part between the two comments is the *only* thing that changes — the
+`cms:about.hero_heading` marker itself is permanent scaffolding, not content.
+`npm run build` reads `content/pages/about.json`'s `hero_heading` field and
+swaps in whatever text is stored there, leaving the markers in place so the
+page stays editable on every future build. Markers named `cms:global.*` pull
+from `content/settings/global.json` instead of a page file.
+
+This is intentionally plain string substitution — no templating engine, no
+build step required to preview a change (open the HTML file directly and
+you'll just see the current text baked in). That makes it easy for a future
+AI coding session, or anyone editing by hand, to:
+
+- **Add a new editable field to an existing page**: wrap the text in
+  `<!-- cms:pagename.new_field_name -->...<!-- /cms:pagename.new_field_name -->`
+  in the HTML, add `new_field_name` to the matching file in `content/pages/`,
+  and add a matching entry under that page's `fields:` list in `.pages.yml`.
+- **Add a whole new editable page**: create `content/pages/<slug>.json` with a
+  `slug`/`published` plus whatever fields it needs, wrap the corresponding HTML
+  in `cms:<slug>.field` markers, and add a `type: file` entry to `.pages.yml`
+  pointing at it (copy one of the existing `*-page` entries as a template).
+- **Not everything needs to be a CMS field.** Repeating structures that are
+  already data-driven collections (research cards, industry tiles, team
+  photos) are handled by `content/papers`, `content/industries` and
+  `content/people` instead — don't wrap those in `cms:` markers. Likewise,
+  content that changes only via a real code change (the 4 capability tabs and
+  4 deliverable cards on `capabilities.html`, the Spotlight study cards, client
+  and partner logos) is left as plain HTML on purpose; editing it directly in
+  the HTML is simpler than adding a form field for something that rarely
+  changes and has real layout/structure attached to it.
+
+`npm run content:validate` scans every root HTML file for `cms:` markers and
+checks that each one resolves to a real field in `content/pages/` or
+`content/settings/global.json` — a typo'd or renamed marker fails validation
+instead of silently leaving stale text on the live site.
 
 Run `npm run build` to create the deployable site in `dist/`. The build keeps
 the existing design while generating paper cards, summaries, industry grids and
