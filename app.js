@@ -891,43 +891,43 @@ const CHECK = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path
 
 const INDUSTRIES = [
   { slug:'agriculture', name:'Agriculture & Food', icon:'<path d="M4 20c8 0 14-6 14-14 0 0-12-2-14 8-1 5 0 6 0 6Z"/><path d="M4 20c0-4 2-8 6-10"/>',
-    summary:'From farm-gate prices to food-security policy, we model how agricultural markets respond to trade, climate and subsidy shocks.',
+    summary:'We model how trade, climate and subsidies affect prices, production and food security.',
     points:['Crop & commodity price modelling','Food-security & subsidy impact analysis','Climate-shock scenario planning'] },
   { slug:'energy', name:'Energy', icon:'<path d="M13 2 4 14h6l-1 8 9-12h-6l1-8Z"/>',
-    summary:'General-equilibrium views of energy markets — subsidy reform, transition pathways and the distributional consequences of policy change.',
+    summary:'We model energy markets, subsidy reform, transition pathways and distributional effects.',
     points:['Subsidy reform & pricing analysis','Energy-transition scenario modelling','Distributional impact assessment'],
     study:{ tag:'Energy', title:'Energy Subsidies in Russia', sum:'A general-equilibrium view of subsidy reform and its distributional consequences.', href:'spotlight.html#energy' } },
   { slug:'manufacturing', name:'Manufacturing', icon:'<circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/>',
-    summary:'We quantify how tariffs, input costs and automation reshape manufacturing output, employment and competitiveness.',
+    summary:'We measure how tariffs, input costs and automation affect output, jobs and competitiveness.',
     points:['Tariff & input-cost pass-through','Competitiveness & productivity modelling','Automation impact studies'] },
   { slug:'retail', name:'Retail & Consumer Goods', icon:'<path d="M6 8h12l-1 12H7L6 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/>',
-    summary:'Consumer-demand modelling that links pricing, trade policy and income effects to retail category performance.',
+    summary:'We connect prices, trade policy and income changes to consumer demand.',
     points:['Consumer-demand & price elasticity','Trade-policy pass-through to retail','Category growth forecasting'] },
   { slug:'financial-services', name:'Financial Services', icon:'<ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v6c0 1.7 3.1 3 7 3s7-1.3 7-3V6M5 12v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6"/>',
-    summary:'Financial and econometric models that translate policy and market shifts into balance-sheet and portfolio impact.',
+    summary:'We translate policy and market shifts into balance-sheet, portfolio and risk impacts.',
     points:['Econometric & financial modelling','Regulatory-impact assessment','Portfolio & risk scenario analysis'] },
   { slug:'healthcare', name:'Healthcare', icon:'<circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/>',
-    summary:'Economic modelling of health-system costs, access and outcomes, built for institutions and public-health agencies.',
+    summary:'We model health-system costs, access and outcomes for public and institutional decisions.',
     points:['Health-system cost modelling','Access & outcomes analysis','Public-health policy simulation'] },
   { slug:'technology', name:'Technology & Digital', icon:'<rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4"/>',
-    summary:'We measure how digital policy — data flows, platform rules, connectivity — shapes growth for firms and economies.',
+    summary:'We measure how data flows, platform rules and connectivity affect firms and economies.',
     points:['Digital-trade & data-flow impact','Platform & market-structure analysis','Connectivity & MSME growth studies'],
     study:{ tag:'Digital Trade', title:'Cross-border Digital Transmissions & Indonesian MSMEs', sum:'Quantifying how data-flow policy shapes the growth trajectory of micro, small and medium enterprises.', href:'spotlight.html#indonesia' } },
   { slug:'logistics', name:'Transportation & Logistics', icon:'<path d="M3 16V6h9v10"/><path d="M12 10h5l4 4v2h-2"/><circle cx="7.5" cy="18" r="1.7"/><circle cx="16.5" cy="18" r="1.7"/>',
-    summary:'Network models that stress-test transportation and logistics chains against disruption, cost and demand shocks.',
+    summary:'We test transport and logistics networks against disruption, cost and demand shocks.',
     points:['Route & network flow modelling','Disruption & resilience stress-testing','Cost-to-serve optimisation'] },
   { slug:'textiles', name:'Textiles & Apparel', icon:'<path d="M8 4 4 7v3h3v10h10V10h3V7l-4-3-3 2h-2L8 4Z"/>',
-    summary:'Sectoral models of the textile value chain — from fiber inputs to finished-goods trade policy.',
+    summary:'We model the textile value chain from raw inputs to finished-goods trade.',
     points:['Value-chain & duty-structure modelling','Fiber-to-finished-goods trade analysis','Sectoral competitiveness studies'] },
   { slug:'trade', name:'Trade & Customs', icon:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 4 5.7 4 9s-1.5 6.5-4 9c-2.5-2.5-4-5.7-4-9s1.5-6.5 4-9Z"/>',
-    summary:'Customs-duty and trade-liberalization modelling used by ministries and multilateral institutions worldwide.',
+    summary:'We measure the effects of tariffs, customs rules and trade liberalization.',
     points:['Customs-duty & tariff-structure analysis','Trade-liberalization impact modelling','Cross-border compliance cost studies'],
     study:{ tag:'Trade Policy', title:'Inverted Customs-Duty Structure & Indian Viscose Fibers', sum:'Modelling the sectoral effects of duty inversion across the Indian textile value chain.', href:'spotlight.html#viscose' } },
   { slug:'construction', name:'Construction & Infrastructure', icon:'<path d="M3 21h18M6 21V9l6-4 6 4v12M10 21v-6h4v6"/>',
-    summary:'Infrastructure-investment modelling that links public spending to growth, employment and regional development.',
+    summary:'We measure how infrastructure investment affects growth, jobs and regional development.',
     points:['Public-investment impact modelling','Regional development scenario analysis','Infrastructure financing studies'] },
   { slug:'public-sector', name:'Public Sector & Government', icon:'<path d="M4 21h16M5 21V10M19 21V10M3 10l9-5 9 5M8 10v11M12 10v11M16 10v11"/>',
-    summary:'Fiscal and policy models built directly for the governments and multilateral institutions that commission them.',
+    summary:'We build fiscal and policy models for governments and multilateral institutions.',
     points:['Fiscal-policy & budget-impact modelling','Cross-agency scenario planning','Sustainable-development alignment'] },
 ];
 
@@ -992,15 +992,16 @@ function initIndustries(){
 
   const isModalGrid = grid.hasAttribute('data-modal');
   const isEditorialGrid = grid.hasAttribute('data-editorial');
+  const isCompactEditorialGrid = grid.hasAttribute('data-editorial-compact');
   const limit = parseInt(grid.getAttribute('data-limit') || '0', 10);
   const list = limit ? INDUSTRIES.slice(0, limit) : INDUSTRIES;
 
-  if (isEditorialGrid){
-    grid.classList.add('ind-grid--editorial');
+  if (isEditorialGrid || isCompactEditorialGrid){
+    grid.classList.add(isCompactEditorialGrid ? 'ind-grid--compact' : 'ind-grid--editorial');
     grid.innerHTML = list.map(ind => {
       const image = INDUSTRY_IMAGES[ind.slug];
       return `
-        <a class="ind-story" href="industry-${ind.slug}.html" aria-label="Explore ${ind.name}">
+        <a class="ind-story${isCompactEditorialGrid ? ' ind-story--compact' : ''}" href="industry-${ind.slug}.html" aria-label="Explore ${ind.name}">
           <span class="ind-story-media">
             <img src="${image.src}" alt="${image.alt}" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
           </span>
@@ -1221,6 +1222,9 @@ function initPaperCardImages(){
   const usedImages = new Set();
 
   cards.forEach((card, index) => {
+    const tag = card.querySelector('.tag');
+    if (tag) tag.textContent = card.dataset.paperCategory || 'Research';
+
     const src = images[index];
     if (!src || usedImages.has(src)) return;
     usedImages.add(src);
