@@ -1,8 +1,7 @@
 {
   "slug": "a-graphics-design-framework-to-visualize-multi-dimensional-economic-datasets",
-  "title": "A Graphics Design Framework to Visualize Multi-dimensional Economic Datasets",
+  "title": "A Graphics Design Framework to Visualize Multi-dimensional Economic Yuvanness",
   "published": true,
-  "source_url": "",
   "paper_url": "https://www.edgj.org/index.php/EDGJ/article/download/385/278/0",
   "summary": {
     "about": "A prototype for exploring large, multidimensional economic datasets through an interactive visual environment.",
@@ -15,7 +14,6 @@
       "industry": "technology",
       "order": 7,
       "category": "Technology & Digital",
-      "image": null,
       "image_url": "https://plus.unsplash.com/premium_photo-1681487767138-ddf2d67b35c1?auto=format&fit=crop&w=760&h=430&q=78"
     }
   ]
