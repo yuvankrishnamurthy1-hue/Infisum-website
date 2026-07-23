@@ -519,7 +519,7 @@ footer{padding:48px 0 28px;border-top:1px solid var(--line);background:var(--whi
   .foot-top{grid-template-columns:1fr 1fr}
   .cta{padding:54px 28px}
 }
-@media(max-width:800px){
+@media(max-width:960px){
   .hero-layout,.page-head--visual .wrap{grid-template-columns:1fr}
   .hero-media{height:360px}
   .page-head-photo{grid-column:1;grid-row:auto;height:250px;margin-top:24px}
