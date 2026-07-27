@@ -5,10 +5,10 @@
   "source_url": "",
   "paper_url": null,
   "summary": {
-    "about": "How slower Indian growth affects trade and investment across Commonwealth economies.",
+    "about": "Examines how slower Indian growth affects trade and investment across Commonwealth economies.",
     "audience": "Commonwealth trade ministries, development agencies and exporters.",
-    "method": "Uses GTAP analysis for 2020 plus a qualitative product-and-country assessment.",
-    "insights": "The largest effects fall on India’s exports to least-developed and Sub-Saharan countries and imports from developed Commonwealth members."
+    "method": "Uses GTAP analysis for 2020 plus a qualitative product-and-country assessment. Counterfactual outcomes are evaluated against a calibrated baseline through sectoral output, trade, factor-income, and welfare channels.",
+    "insights": "The largest effects fall on India’s exports to least-developed and Sub-Saharan countries and imports from developed Commonwealth members. These are scenario-conditioned comparative responses rather than unconditional forecasts."
   },
   "placements": [
     {

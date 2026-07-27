@@ -5,10 +5,10 @@
   "source_url": "",
   "paper_url": null,
   "summary": {
-    "about": "How access to finance in African markets affects exports from India.",
+    "about": "Examines how access to finance in African markets affects exports from India.",
     "audience": "Indian and African trade ministries, banks and trade-finance institutions.",
-    "method": "Estimates several gravity-model specifications with and without banking, credit, interest-rate and registry variables.",
-    "insights": "Better credit access allows even poorer African countries to import more, making trade finance central to India–Africa trade growth."
+    "method": "Estimates several gravity-model specifications with and without banking, credit, interest-rate and registry variables. The contribution is methodological: it specifies an analytical mechanism and evaluates it against the stated data or scenarios.",
+    "insights": "Better credit access allows even poorer African countries to import more, making trade finance central to India–Africa trade growth. The result is conditional on the model specification, data-generating process, and validation assumptions."
   },
   "placements": [
     {

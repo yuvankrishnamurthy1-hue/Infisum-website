@@ -7,8 +7,8 @@
   "summary": {
     "about": "The economic cost to the United States of escalating barriers to ICT trade with China.",
     "audience": "U.S. trade officials, technology companies and supply-chain leaders.",
-    "method": "Simulates tariff-escalation scenarios modeled on U.S. Section 301 measures.",
-    "insights": "Tariffs reduce ICT competitiveness, do little to restore manufacturing and could cost U.S. GDP about $1 trillion over ten years."
+    "method": "Simulates tariff-escalation scenarios modeled on U.S. Section 301 measures. The contribution is methodological: it specifies an analytical mechanism and evaluates it against the stated data or scenarios.",
+    "insights": "Tariffs reduce ICT competitiveness, do little to restore manufacturing and could cost U.S. GDP about $1 trillion over ten years. The result is conditional on the model specification, data-generating process, and validation assumptions."
   },
   "placements": [
     {

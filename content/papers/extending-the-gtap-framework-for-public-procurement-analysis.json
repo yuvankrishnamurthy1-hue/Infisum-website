@@ -7,8 +7,8 @@
   "summary": {
     "about": "A better way to represent government procurement in global trade-policy models.",
     "audience": "Government procurement officials, trade negotiators and CGE model developers.",
-    "method": "Disaggregates government investment and import origins in GTAP, modifies the model and demonstrates an illustrative application.",
-    "insights": "Detailed procurement data are essential for estimating how discriminatory purchasing rules affect trade, employment and welfare."
+    "method": "Disaggregates government investment and import origins in GTAP, modifies the model and demonstrates an illustrative application. Counterfactual outcomes are evaluated against a calibrated baseline through sectoral output, trade, factor-income, and welfare channels.",
+    "insights": "Detailed procurement data are essential for estimating how discriminatory purchasing rules affect trade, employment and welfare. These are scenario-conditioned comparative responses rather than unconditional forecasts."
   },
   "placements": [
     {

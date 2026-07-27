@@ -5,10 +5,10 @@
   "source_url": "",
   "paper_url": "https://ideas.repec.org/p/ags/aaea11/103946.html",
   "summary": {
-    "about": "Why tariff escalation affects processed cotton and coffee exports differently across developing countries.",
+    "about": "Analyzes why tariff escalation affects processed cotton and coffee exports differently across developing countries.",
     "audience": "Trade officials, commodity exporters and value-chain researchers.",
-    "method": "Extends the GTAP 2004 database with detailed UN and industry data and simulates lower processing tariffs.",
-    "insights": "Tariff escalation does not have one uniform effect; outcomes depend on tariff gaps and each country’s sector conditions."
+    "method": "Extends the GTAP 2004 database with detailed UN and industry data and simulates lower processing tariffs. Counterfactual outcomes are evaluated against a calibrated baseline through sectoral output, trade, factor-income, and welfare channels.",
+    "insights": "Tariff escalation does not have one uniform effect; outcomes depend on tariff gaps and each country’s sector conditions. These are scenario-conditioned comparative responses rather than unconditional forecasts."
   },
   "placements": [
     {

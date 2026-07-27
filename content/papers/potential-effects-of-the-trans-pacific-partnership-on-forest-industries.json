@@ -7,8 +7,8 @@
   "summary": {
     "about": "A methodological critique of estimates for TPP effects on forestry industries.",
     "audience": "Forestry economists, trade modelers and policy researchers.",
-    "method": "Compares assumptions in the Global Forest Products Model with GTAP-based TPP studies.",
-    "insights": "Modeling tariffs and macroeconomic change separately may double-count effects; non-tariff rules and consistent dynamic baselines should be included."
+    "method": "Compares assumptions in the Global Forest Products Model with GTAP-based TPP studies. Counterfactual outcomes are evaluated against a calibrated baseline through sectoral output, trade, factor-income, and welfare channels.",
+    "insights": "Modeling tariffs and macroeconomic change separately may double-count effects; non-tariff rules and consistent dynamic baselines should be included. These are scenario-conditioned comparative responses rather than unconditional forecasts."
   },
   "placements": [
     {

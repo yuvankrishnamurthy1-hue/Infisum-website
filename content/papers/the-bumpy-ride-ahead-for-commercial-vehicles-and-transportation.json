@@ -7,8 +7,8 @@
   "summary": {
     "about": "COVID-19’s effect on Indian commercial vehicles, freight transport and component supply chains.",
     "audience": "Truck manufacturers, logistics firms, suppliers and transport policymakers.",
-    "method": "Combines GTAP data, India’s input-output table and industry evidence on sales and sourcing.",
-    "insights": "The sector’s China dependence is moderate but tier-two and tier-three suppliers are vulnerable; recovery requires supply-chain redesign and technology."
+    "method": "Combines GTAP data, India’s input-output table and industry evidence on sales and sourcing. Counterfactual outcomes are evaluated against a calibrated baseline through sectoral output, trade, factor-income, and welfare channels.",
+    "insights": "The sector’s China dependence is moderate but tier-two and tier-three suppliers are vulnerable; recovery requires supply-chain redesign and technology. These are scenario-conditioned comparative responses rather than unconditional forecasts."
   },
   "placements": [
     {

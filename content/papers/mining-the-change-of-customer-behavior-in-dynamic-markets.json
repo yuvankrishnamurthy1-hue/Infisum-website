@@ -7,8 +7,8 @@
   "summary": {
     "about": "A way to detect when customers’ purchasing sequences and quantities change over time.",
     "audience": "Retail analysts, marketing teams, inventory planners and data-mining researchers.",
-    "method": "Develops a fuzzy quantitative sequential change-mining model and tests it on real and synthetic datasets.",
-    "insights": "The model identifies actionable pattern changes and remains scalable, helping managers avoid outdated marketing and inventory decisions."
+    "method": "Develops a fuzzy quantitative sequential change-mining model and tests it on real and synthetic datasets. The contribution is methodological: it specifies an analytical mechanism and evaluates it against the stated data or scenarios.",
+    "insights": "The model identifies actionable pattern changes and remains scalable, helping managers avoid outdated marketing and inventory decisions. The result is conditional on the model specification, data-generating process, and validation assumptions."
   },
   "placements": [
     {

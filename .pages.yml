@@ -294,6 +294,15 @@ content:
       - { name: story_lede, label: "Our story: lede", type: text }
       - { name: story_paragraph_1, label: "Our story: paragraph 1", type: text }
       - { name: story_paragraph_2, label: "Our story: paragraph 2", type: text }
+      - { name: story_paragraph_3, label: "Our story: paragraph 3", type: text }
+      - { name: story_paragraph_4, label: "Our story: paragraph 4", type: text }
+      - { name: services_heading, label: "Services: heading", type: string }
+      - { name: service_1, label: "Service 1", type: text }
+      - { name: service_2, label: "Service 2", type: text }
+      - { name: service_3, label: "Service 3", type: text }
+      - { name: service_4, label: "Service 4", type: text }
+      - { name: service_5, label: "Service 5", type: text }
+      - { name: service_6, label: "Service 6", type: text }
       - { name: figure_caption, label: Figure caption, type: string }
       - { name: figure_sub, label: Figure subtext, type: text }
       - { name: people_heading, label: "Our people: heading", type: string }

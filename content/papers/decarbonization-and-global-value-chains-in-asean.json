@@ -7,8 +7,8 @@
   "summary": {
     "about": "The economic and value-chain consequences of ASEAN countries meeting emissions targets.",
     "audience": "ASEAN climate, energy, trade and industrial policymakers.",
-    "method": "Links GTAP-E-Power and GTAP value-added models under business-as-usual and national-target scenarios.",
-    "insights": "Meeting targets imposes GDP and value-added costs, but estimated social savings from lower carbon emissions can outweigh those losses."
+    "method": "Links GTAP-E-Power and GTAP value-added models under business-as-usual and national-target scenarios. Counterfactual outcomes are evaluated against a calibrated baseline through sectoral output, trade, factor-income, and welfare channels.",
+    "insights": "Meeting targets imposes GDP and value-added costs, but estimated social savings from lower carbon emissions can outweigh those losses. These are scenario-conditioned comparative responses rather than unconditional forecasts."
   },
   "placements": [
     {

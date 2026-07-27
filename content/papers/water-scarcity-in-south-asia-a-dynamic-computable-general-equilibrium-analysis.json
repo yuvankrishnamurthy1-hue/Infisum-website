@@ -7,8 +7,8 @@
   "summary": {
     "about": "The long-run economy-wide consequences of worsening water scarcity across South Asia.",
     "audience": "Water, agriculture and economic-development policymakers.",
-    "method": "Combines dynamic and comparative-static CGE models under different assumptions about replacing water with other inputs.",
-    "insights": "Without better water productivity, potential 2030 GDP losses could range from 7% to 45%, with strong food-price effects."
+    "method": "Combines dynamic and comparative-static CGE models under different assumptions about replacing water with other inputs. Counterfactual outcomes are evaluated against a calibrated baseline through sectoral output, trade, factor-income, and welfare channels.",
+    "insights": "Without better water productivity, potential 2030 GDP losses could range from 7% to 45%, with strong food-price effects. These are scenario-conditioned comparative responses rather than unconditional forecasts."
   },
   "placements": [
     {

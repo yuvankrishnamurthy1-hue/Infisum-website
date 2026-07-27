@@ -7,8 +7,8 @@
   "summary": {
     "about": "Long-run production, harvested-area and productivity trends in major coconut-producing countries and Nepal.\n",
     "audience": "Agricultural planners, coconut producers and commodity researchers.",
-    "method": "Uses growth rates, instability measures, ARIMA and exponential smoothing on 1990–2018 data, with projections through 2021.",
-    "insights": "Major producers appear broadly stable; fitted time-series models provide short-term projections for Indian area, output and productivity."
+    "method": "Uses growth rates, instability measures, ARIMA and exponential smoothing on 1990–2018 data, with projections through 2021. The empirical design separates long-run equilibrium relationships from short-run adjustment and dynamic response.",
+    "insights": "Major producers appear broadly stable; fitted time-series models provide short-term projections for Indian area, output and productivity. The estimated relationships should be interpreted as model-based associations unless a stronger identification strategy is specified."
   },
   "placements": [
     {

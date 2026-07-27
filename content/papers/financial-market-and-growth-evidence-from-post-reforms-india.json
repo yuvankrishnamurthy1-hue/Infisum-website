@@ -7,8 +7,8 @@
   "summary": {
     "about": "The relationship between India’s stock and credit markets and economic growth after liberalization.",
     "audience": "Financial regulators, economists and capital-market policymakers.",
-    "method": "Analyzes stationary time-series variables from 1994–2010 and tests long-run relationships with GDP.",
-    "insights": "Stock-market development has stronger and more significant long-run links with growth than credit-market development."
+    "method": "Analyzes stationary time-series variables from 1994–2010 and tests long-run relationships with GDP. The empirical design separates long-run equilibrium relationships from short-run adjustment and dynamic response.",
+    "insights": "Stock-market development has stronger and more significant long-run links with growth than credit-market development. The estimated relationships should be interpreted as model-based associations unless a stronger identification strategy is specified."
   },
   "placements": [
     {

@@ -5,10 +5,10 @@
   "source_url": "",
   "paper_url": "https://production-new-commonwealth-files.s3.eu-west-2.amazonaws.com/migrated/inline/ITWP_2021-05_UPDF.pdf",
   "summary": {
-    "about": "How post-Brexit UK trade agreements may redirect trade away from Commonwealth developing economies.",
+    "about": "Examines how post-Brexit UK trade agreements may redirect trade away from Commonwealth developing economies.",
     "audience": "UK and Commonwealth trade officials, exporters and development agencies.",
-    "method": "Uses a multi-sector GTAP model to simulate several UK trade-agreement scenarios.",
-    "insights": "New agreements with efficient developed partners may erode market access for less-developed Commonwealth exporters."
+    "method": "Uses a multi-sector GTAP model to simulate several UK trade-agreement scenarios. Counterfactual outcomes are evaluated against a calibrated baseline through sectoral output, trade, factor-income, and welfare channels.",
+    "insights": "New agreements with efficient developed partners may erode market access for less-developed Commonwealth exporters. These are scenario-conditioned comparative responses rather than unconditional forecasts."
   },
   "placements": [
     {

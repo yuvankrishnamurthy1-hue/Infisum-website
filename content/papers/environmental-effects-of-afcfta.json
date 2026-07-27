@@ -5,10 +5,10 @@
   "source_url": "",
   "paper_url": "https://www.atlantis-press.com/journals/jat/125959229",
   "summary": {
-    "about": "How African trade liberalization under AfCFTA could change economic activity and pollution.",
+    "about": "Examines how African trade liberalization under AfCFTA could change economic activity and pollution.",
     "audience": "African trade, climate and development policymakers.",
-    "method": "Extends GTAP 10a with emissions accounting for CO2 and other greenhouse gases and pollutants.",
-    "insights": "Most members gain trade, GDP and jobs, but transport and production raise emissions—especially non-CO2 gases—in many countries."
+    "method": "Extends GTAP 10a with emissions accounting for CO2 and other greenhouse gases and pollutants. Counterfactual outcomes are evaluated against a calibrated baseline through sectoral output, trade, factor-income, and welfare channels.",
+    "insights": "Most members gain trade, GDP and jobs, but transport and production raise emissions—especially non-CO2 gases—in many countries. These are scenario-conditioned comparative responses rather than unconditional forecasts."
   },
   "placements": [
     {

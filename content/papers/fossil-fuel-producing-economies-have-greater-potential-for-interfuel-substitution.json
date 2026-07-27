@@ -5,10 +5,10 @@
   "source_url": "",
   "paper_url": "https://www.gtap.agecon.purdue.edu/resources/res_display.asp?RecordID=4220",
   "summary": {
-    "about": "Why countries with fossil-fuel production may switch among energy sources more easily.",
+    "about": "Analyzes why countries with fossil-fuel production may switch among energy sources more easily.",
     "audience": "Energy and climate policymakers, modelers and resource economists.",
-    "method": "Extends interfuel-substitution analysis to include transaction costs, technological adjustment and production potential, then runs policy simulations.",
-    "insights": "Fossil-fuel producers show higher substitution elasticities, potentially lowering the cost of climate and energy policies."
+    "method": "Extends interfuel-substitution analysis to include transaction costs, technological adjustment and production potential, then runs policy simulations. The analysis is interpreted through the relevant sectoral transmission mechanisms and implementation constraints.",
+    "insights": "Fossil-fuel producers show higher substitution elasticities, potentially lowering the cost of climate and energy policies. The conclusion is conditional on the evidence base and assumptions described in the study."
   },
   "placements": [
     {

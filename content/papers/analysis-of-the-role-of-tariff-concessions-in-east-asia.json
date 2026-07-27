@@ -5,10 +5,10 @@
   "source_url": "",
   "paper_url": "https://econpapers.repec.org/paper/ngidpaper/16-21.htm",
   "summary": {
-    "about": "Whether East Asian trade agreements’ promised tariff reductions are fully reflected in policy analysis.",
+    "about": "Evaluates whether East Asian trade agreements’ promised tariff reductions are fully reflected in policy analysis.",
     "audience": "Trade negotiators, CGE modelers and regional-integration researchers.",
-    "method": "Builds an HS6-level tariff-concession extension for GTAP and compares partial with complete implementation of East Asian agreements.",
-    "insights": "Unimplemented commitments materially affect projected outcomes and should be included in baselines for future trade-policy simulations."
+    "method": "Builds an HS6-level tariff-concession extension for GTAP and compares partial with complete implementation of East Asian agreements. Counterfactual outcomes are evaluated against a calibrated baseline through sectoral output, trade, factor-income, and welfare channels.",
+    "insights": "Unimplemented commitments materially affect projected outcomes and should be included in baselines for future trade-policy simulations. These are scenario-conditioned comparative responses rather than unconditional forecasts."
   },
   "placements": [
     {

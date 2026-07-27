@@ -4,10 +4,10 @@
   "published": true,
   "paper_url": "https://www.edgj.org/index.php/EDGJ/article/download/385/278/0",
   "summary": {
-    "about": "A prototype for exploring large, multidimensional economic datasets through an interactive visual environment.",
+    "about": "Presents a prototype for exploring large, multidimensional economic datasets through an interactive visual environment.",
     "audience": "Economists, policy analysts, data scientists and visualization designers.",
-    "method": "Builds a desktop virtual-reality framework and demonstrates it with a time-series, bilateral, multi-sector trade dataset.",
-    "insights": "Combining multiple variables and data formats on one canvas can reveal patterns without stripping away important dimensions."
+    "method": "Builds a desktop virtual-reality framework and demonstrates it with a time-series, bilateral, multi-sector trade dataset. The empirical design separates long-run equilibrium relationships from short-run adjustment and dynamic response.",
+    "insights": "Combining multiple variables and data formats on one canvas can reveal patterns without stripping away important dimensions. The estimated relationships should be interpreted as model-based associations unless a stronger identification strategy is specified."
   },
   "placements": [
     {

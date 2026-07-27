@@ -7,8 +7,8 @@
   "summary": {
     "about": "The combined economic effects of Make in India policies and the 2017–18 global trade war.",
     "audience": "Indian industrial, trade and investment policymakers.",
-    "method": "Runs applied general-equilibrium simulations of investment incentives, protectionist measures and trade-war shocks.",
-    "insights": "The combined policies can benefit the overall economy while still weakening exports, jobs and investment in important sectors."
+    "method": "Runs applied general-equilibrium simulations of investment incentives, protectionist measures and trade-war shocks. Counterfactual outcomes are evaluated against a calibrated baseline through sectoral output, trade, factor-income, and welfare channels.",
+    "insights": "The combined policies can benefit the overall economy while still weakening exports, jobs and investment in important sectors. These are scenario-conditioned comparative responses rather than unconditional forecasts."
   },
   "placements": [
     {

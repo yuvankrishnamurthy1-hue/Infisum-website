@@ -5,10 +5,10 @@
   "source_url": "",
   "paper_url": "assets/content/papers/MSME-WTOMoratorium-SouthAfrica.pdf",
   "summary": {
-    "about": "How imported digital products and services affect South African MSME growth.",
+    "about": "Examines how imported digital products and services affect South African MSME growth.",
     "audience": "South African MSMEs, digital-trade officials and WTO policymakers.",
-    "method": "Uses MSME employment, productivity and size time series with digital-import data from OECD input-output tables.",
-    "insights": "Digital imports contribute positively to MSME performance, supporting continued duty-free electronic transmissions."
+    "method": "Uses MSME employment, productivity and size time series with digital-import data from OECD input-output tables. The empirical design separates long-run equilibrium relationships from short-run adjustment and dynamic response.",
+    "insights": "Digital imports contribute positively to MSME performance, supporting continued duty-free electronic transmissions. The estimated relationships should be interpreted as model-based associations unless a stronger identification strategy is specified."
   },
   "placements": [
     {

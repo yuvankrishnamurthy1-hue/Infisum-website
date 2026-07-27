@@ -7,8 +7,8 @@
   "summary": {
     "about": "The effect of removing India’s tariff disadvantage on imported pulp used to make viscose fibre.",
     "audience": "Textile and customs policymakers, viscose producers and trade analysts.",
-    "method": "Uses a GTAP CGE model to simulate correction of the inverted duty structure.",
-    "insights": "The reform is estimated to raise Indian GDP by about $18 million and exports by about $10.75 million."
+    "method": "Uses a GTAP multi-sector computable general equilibrium (CGE) model to simulate correction of the inverted duty structure. Counterfactual outcomes are evaluated against a calibrated baseline through sectoral output, trade, factor-income, and welfare channels.",
+    "insights": "The reform is estimated to raise Indian GDP by about $18 million and exports by about $10.75 million. These are scenario-conditioned comparative responses rather than unconditional forecasts."
   },
   "placements": [
     {

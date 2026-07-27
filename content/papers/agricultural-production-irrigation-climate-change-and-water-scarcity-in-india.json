@@ -5,10 +5,10 @@
   "source_url": "",
   "paper_url": "assets/content/papers/AAEA_2015_India_Final.pdf",
   "summary": {
-    "about": "How climate change and limited water supplies could reshape Indian agriculture, irrigation, land use and welfare.",
+    "about": "Examines how climate change and limited water supplies could reshape Indian agriculture, irrigation, land use and welfare.",
     "audience": "Agricultural, water, climate and food-security policymakers.",
-    "method": "Combines an advanced CGE model with biophysical crop-yield projections and water-scarcity constraints.",
-    "insights": "Water scarcity reverses possible climate-related gains, reduces irrigation and could create welfare losses of about $3.2 billion in 2030."
+    "method": "Combines an advanced multi-sector computable general equilibrium (CGE) model with biophysical crop-yield projections and water-scarcity constraints. Counterfactual outcomes are evaluated against a calibrated baseline through sectoral output, trade, factor-income, and welfare channels.",
+    "insights": "Water scarcity reverses possible climate-related gains, reduces irrigation and could create welfare losses of about $3.2 billion in 2030. These are scenario-conditioned comparative responses rather than unconditional forecasts."
   },
   "placements": [
     {

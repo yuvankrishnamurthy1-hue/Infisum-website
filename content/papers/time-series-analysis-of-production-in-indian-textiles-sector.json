@@ -5,10 +5,10 @@
   "source_url": "",
   "paper_url": "https://ideas.repec.org/a/taf/applec/v42y2010i6p759-768.html",
   "summary": {
-    "about": "Whether standard production relationships hold in India’s textile industry over time.",
+    "about": "Evaluates whether standard production relationships hold in India’s textile industry over time.",
     "audience": "Textile economists, manufacturers and industrial policymakers.",
-    "method": "Uses time-series cointegration and shock-response analysis for output, capital, labor and productivity.",
-    "insights": "Capital and output move together long term, while employment and capital shocks can reduce output or future productivity."
+    "method": "Uses time-series cointegration and shock-response analysis for output, capital, labor and productivity. The empirical design separates long-run equilibrium relationships from short-run adjustment and dynamic response.",
+    "insights": "Capital and output move together long term, while employment and capital shocks can reduce output or future productivity. The estimated relationships should be interpreted as model-based associations unless a stronger identification strategy is specified."
   },
   "placements": [
     {

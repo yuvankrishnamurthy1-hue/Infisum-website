@@ -7,8 +7,8 @@
   "summary": {
     "about": "The relationship among greenhouse-gas emissions, temperature change and economic growth across Europe.",
     "audience": "European climate policymakers, economists and environmental researchers.",
-    "method": "Applies time-series clustering to 33 countries from 1990–2016 and tests the environmental Kuznets-curve pattern.",
-    "insights": "Country clusters show distinct emissions-growth-temperature relationships, supporting more tailored environmental policy."
+    "method": "Applies time-series clustering to 33 countries from 1990–2016 and tests the environmental Kuznets-curve pattern. The empirical design separates long-run equilibrium relationships from short-run adjustment and dynamic response.",
+    "insights": "Country clusters show distinct emissions-growth-temperature relationships, supporting more tailored environmental policy. The estimated relationships should be interpreted as model-based associations unless a stronger identification strategy is specified."
   },
   "placements": [
     {

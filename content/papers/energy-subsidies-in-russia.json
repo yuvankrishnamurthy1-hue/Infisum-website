@@ -7,8 +7,8 @@
   "summary": {
     "about": "The economic and regional consequences of removing oil, gas and electricity subsidies in Russia.",
     "audience": "Russian energy, finance, social-protection and regional policymakers.",
-    "method": "Uses a regionally disaggregated Russian CGE model, including opportunity costs and fuel-substitution responses.",
-    "insights": "Subsidy reform must be paired with competitiveness, efficiency, governance and social-protection measures to manage uneven impacts."
+    "method": "Uses a regionally disaggregated Russian multi-sector computable general equilibrium (CGE) model, including opportunity costs and fuel-substitution responses. Counterfactual outcomes are evaluated against a calibrated baseline through sectoral output, trade, factor-income, and welfare channels.",
+    "insights": "Subsidy reform must be paired with competitiveness, efficiency, governance and social-protection measures to manage uneven impacts. These are scenario-conditioned comparative responses rather than unconditional forecasts."
   },
   "placements": [
     {

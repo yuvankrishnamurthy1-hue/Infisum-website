@@ -7,8 +7,8 @@
   "summary": {
     "about": "The long-term economic scarring caused by pandemic learning losses.",
     "audience": "Education ministries, labor policymakers and development institutions.",
-    "method": "Uses GTAP data and a CGE model to connect school closures with future growth and employment.",
-    "insights": "Global GDP losses grow over time and could reach $943 billion in 2030, with poorer and rural students facing greater harm."
+    "method": "Uses GTAP data and a multi-sector computable general equilibrium (CGE) model to connect school closures with future growth and employment. Counterfactual outcomes are evaluated against a calibrated baseline through sectoral output, trade, factor-income, and welfare channels.",
+    "insights": "Global GDP losses grow over time and could reach $943 billion in 2030, with poorer and rural students facing greater harm. These are scenario-conditioned comparative responses rather than unconditional forecasts."
   },
   "placements": [
     {

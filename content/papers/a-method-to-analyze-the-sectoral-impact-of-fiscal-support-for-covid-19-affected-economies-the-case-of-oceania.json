@@ -5,10 +5,10 @@
   "source_url": "",
   "paper_url": null,
   "summary": {
-    "about": "How fiscal stimulus changed the pandemic’s economic and industry-level effects across eight Oceania economies.",
+    "about": "Examines how fiscal stimulus changed the pandemic’s economic and industry-level effects across eight Oceania economies.",
     "audience": "Finance ministries, central banks and economic-development policymakers in Oceania.",
-    "method": "Uses a global CGE model with IMF projections and country stimulus packages to compare pandemic scenarios.",
-    "insights": "Stimulus cushioned GDP losses, especially in New Zealand and Guam, but education, tourism and skilled employment remained heavily affected."
+    "method": "Uses a global multi-sector computable general equilibrium (CGE) model with IMF projections and country stimulus packages to compare pandemic scenarios. Counterfactual outcomes are evaluated against a calibrated baseline through sectoral output, trade, factor-income, and welfare channels.",
+    "insights": "Stimulus cushioned GDP losses, especially in New Zealand and Guam, but education, tourism and skilled employment remained heavily affected. These are scenario-conditioned comparative responses rather than unconditional forecasts."
   },
   "placements": [
     {

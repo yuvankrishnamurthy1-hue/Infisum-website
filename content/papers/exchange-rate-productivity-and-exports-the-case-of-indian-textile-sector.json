@@ -5,10 +5,10 @@
   "source_url": "",
   "paper_url": "http://www.ispepune.org.in/PDF%20ISSUE/2005/web405/0030002.PDF",
   "summary": {
-    "about": "How exchange rates, prices and productivity influence Indian textile and apparel exports.",
+    "about": "Examines how exchange rates, prices and productivity influence Indian textile and apparel exports.",
     "audience": "Textile exporters, monetary policymakers and trade economists.",
-    "method": "Uses long-run cointegration, Granger causality, impulse responses and variance decomposition on historical data.",
-    "insights": "Exchange rates and export prices have clear long-run links to exports; productivity’s role is present but less conclusive."
+    "method": "Uses long-run cointegration, Granger causality, impulse responses and variance decomposition on historical data. The empirical design separates long-run equilibrium relationships from short-run adjustment and dynamic response.",
+    "insights": "Exchange rates and export prices have clear long-run links to exports; productivity’s role is present but less conclusive. The estimated relationships should be interpreted as model-based associations unless a stronger identification strategy is specified."
   },
   "placements": [
     {

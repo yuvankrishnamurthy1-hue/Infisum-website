@@ -5,10 +5,10 @@
   "source_url": "",
   "paper_url": "https://gtap.agecon.purdue.edu/uploads/resources/download/5321.pdf",
   "summary": {
-    "about": "How an EU–India free-trade agreement could affect India’s textile, apparel and leather sectors.",
+    "about": "Examines how an EU–India free-trade agreement could affect India’s textile, apparel and leather sectors.",
     "audience": "EU and Indian trade officials, textile exporters and industry groups.",
-    "method": "Uses GTAP 7 to compare full bilateral tariff elimination with a sector-focused liberalization scenario.",
-    "insights": "India gains in both scenarios, but benefits concentrate in selected products and do little to improve the existing specialization pattern."
+    "method": "Uses GTAP 7 to compare full bilateral tariff elimination with a sector-focused liberalization scenario. Counterfactual outcomes are evaluated against a calibrated baseline through sectoral output, trade, factor-income, and welfare channels.",
+    "insights": "India gains in both scenarios, but benefits concentrate in selected products and do little to improve the existing specialization pattern. These are scenario-conditioned comparative responses rather than unconditional forecasts."
   },
   "placements": [
     {

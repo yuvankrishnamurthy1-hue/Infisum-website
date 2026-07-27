@@ -5,10 +5,10 @@
   "source_url": "",
   "paper_url": "https://gtap.agecon.purdue.edu/uploads/resources/download/7192.pdf",
   "summary": {
-    "about": "How EU biodiesel caps and anti-dumping measures affect trade, land use and emissions worldwide.",
+    "about": "Examines how EU biodiesel caps and anti-dumping measures affect trade, land use and emissions worldwide.",
     "audience": "EU energy, agriculture, trade and climate policymakers.",
-    "method": "Uses GTAP-BIO to simulate higher biodiesel demand and import prices as policy shocks.",
-    "insights": "Imports can rise despite trade measures, while demand shifts land use and emissions far beyond Europe through food and feed markets."
+    "method": "Uses GTAP-BIO to simulate higher biodiesel demand and import prices as policy shocks. Counterfactual outcomes are evaluated against a calibrated baseline through sectoral output, trade, factor-income, and welfare channels.",
+    "insights": "Imports can rise despite trade measures, while demand shifts land use and emissions far beyond Europe through food and feed markets. These are scenario-conditioned comparative responses rather than unconditional forecasts."
   },
   "placements": [
     {

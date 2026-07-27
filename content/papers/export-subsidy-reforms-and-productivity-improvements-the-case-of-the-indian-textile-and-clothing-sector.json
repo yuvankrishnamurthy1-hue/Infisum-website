@@ -5,10 +5,10 @@
   "source_url": "",
   "paper_url": null,
   "summary": {
-    "about": "Whether productivity growth can offset losses from removing Indian textile export subsidies.",
+    "about": "Evaluates whether productivity growth can offset losses from removing Indian textile export subsidies.",
     "audience": "Trade ministries, textile firms and industrial-development policymakers.",
-    "method": "Runs GTAP policy simulations for subsidy removal alone and alongside 3.5% productivity growth.",
-    "insights": "Subsidy removal alone reduces Indian welfare, while simultaneous productivity investment turns the result modestly positive."
+    "method": "Runs GTAP policy simulations for subsidy removal alone and alongside 3.5% productivity growth. Counterfactual outcomes are evaluated against a calibrated baseline through sectoral output, trade, factor-income, and welfare channels.",
+    "insights": "Subsidy removal alone reduces Indian welfare, while simultaneous productivity investment turns the result modestly positive. These are scenario-conditioned comparative responses rather than unconditional forecasts."
   },
   "placements": [
     {

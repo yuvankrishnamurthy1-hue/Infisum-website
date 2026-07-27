@@ -5,10 +5,10 @@
   "source_url": "",
   "paper_url": null,
   "summary": {
-    "about": "How China’s trade growth affects the wage gap between skilled and unskilled workers in North America.",
+    "about": "Examines how China’s trade growth affects the wage gap between skilled and unskilled workers in North America.",
     "audience": "Labor and trade policymakers, economists and inequality researchers.",
-    "method": "Builds on trade and labor-supply theory to model China’s growth, imports, migration and skill-premium effects.",
-    "insights": "Trade is one of several forces shaping wage inequality, alongside migration, education and skill-biased technological change."
+    "method": "Builds on trade and labor-supply theory to model China’s growth, imports, migration and skill-premium effects. The contribution is methodological: it specifies an analytical mechanism and evaluates it against the stated data or scenarios.",
+    "insights": "Trade is one of several forces shaping wage inequality, alongside migration, education and skill-biased technological change. The result is conditional on the model specification, data-generating process, and validation assumptions."
   },
   "placements": [
     {

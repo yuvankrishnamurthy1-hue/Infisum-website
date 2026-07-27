@@ -7,8 +7,8 @@
   "summary": {
     "about": "A recommendation method that accounts for how strongly customers respond to price and quality changes.",
     "audience": "E-commerce teams, recommendation-system researchers and marketing analysts.",
-    "method": "Adds an elasticity-based second stage to collaborative or content filtering and illustrates it with movie-rating data.",
-    "insights": "Recommendations can be refined into buy or not-buy outcomes while estimating purchase changes caused by price or quality shifts."
+    "method": "Adds an elasticity-based second stage to collaborative or content filtering and illustrates it with movie-rating data. The analysis is interpreted through the relevant sectoral transmission mechanisms and implementation constraints.",
+    "insights": "Recommendations can be refined into buy or not-buy outcomes while estimating purchase changes caused by price or quality shifts. The conclusion is conditional on the evidence base and assumptions described in the study."
   },
   "placements": [
     {

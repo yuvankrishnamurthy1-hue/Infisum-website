@@ -5,10 +5,10 @@
   "source_url": "",
   "paper_url": "https://link.springer.com/chapter/10.1007/978-981-16-8406-7_19?error=cookies_not_supported&code=001e7c4d-a81f-4406-82e4-243c8370ab75",
   "summary": {
-    "about": "How 3D printing adoption could affect India’s employment, GDP, trade and industry output.",
+    "about": "Examines how 3D printing adoption could affect India’s employment, GDP, trade and industry output.",
     "audience": "Manufacturing policymakers, 3D-printing firms and workforce planners.",
-    "method": "Uses GTAP CGE analysis under a 10% adoption scenario.",
-    "insights": "The model projects employment up 2.38% and GDP up 1.26%, with gains concentrated in manufacturing, aerospace, automotive and related services."
+    "method": "Uses GTAP CGE analysis under a 10% adoption scenario. Counterfactual outcomes are evaluated against a calibrated baseline through sectoral output, trade, factor-income, and welfare channels.",
+    "insights": "The model projects employment up 2.38% and GDP up 1.26%, with gains concentrated in manufacturing, aerospace, automotive and related services. These are scenario-conditioned comparative responses rather than unconditional forecasts."
   },
   "placements": [
     {

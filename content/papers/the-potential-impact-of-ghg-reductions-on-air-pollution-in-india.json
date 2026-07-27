@@ -5,10 +5,10 @@
   "source_url": "",
   "paper_url": "https://www.tandfonline.com/doi/abs/10.1080/13547860.2021.1917486",
   "summary": {
-    "about": "Whether cutting greenhouse gases under India’s Paris commitments also reduces harmful local air pollution.",
+    "about": "Evaluates whether cutting greenhouse gases under India’s Paris commitments also reduces harmful local air pollution.",
     "audience": "Indian climate, energy, health and air-quality policymakers.",
-    "method": "Uses economy-wide modeling of Paris-aligned GHG reductions and air-pollution changes across sectors.",
-    "insights": "Climate and clean-air goals can reinforce or conflict with each other, so policy should target both rather than assume automatic co-benefits."
+    "method": "Uses economy-wide modeling of Paris-aligned GHG reductions and air-pollution changes across sectors. The contribution is methodological: it specifies an analytical mechanism and evaluates it against the stated data or scenarios.",
+    "insights": "Climate and clean-air goals can reinforce or conflict with each other, so policy should target both rather than assume automatic co-benefits. The result is conditional on the model specification, data-generating process, and validation assumptions."
   },
   "placements": [
     {

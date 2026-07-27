@@ -5,10 +5,10 @@
   "source_url": "",
   "paper_url": "https://www.adb.org/sites/default/files/publication/604206/adb-brief-133-updated-economic-impact-covid-19.pdf",
   "summary": {
-    "about": "The main channels through which COVID-19 affected economies and the potential role of fiscal support.",
+    "about": "Decomposes the transmission channels through which COVID-19 affected economies and the potential role of fiscal support.",
     "audience": "Economic policymakers, development institutions and crisis-response planners.",
-    "method": "Uses the multiregion GTAP CGE model to simulate trade-cost, productivity and fiscal-stimulus shocks.",
-    "insights": "Pandemic losses spread through tourism, supply chains, wages, consumption and investment, while policy support can offset part of the damage."
+    "method": "Uses the multiregion GTAP multi-sector computable general equilibrium (CGE) model to simulate trade-cost, productivity and fiscal-stimulus shocks. Counterfactual outcomes are evaluated against a calibrated baseline through sectoral output, trade, factor-income, and welfare channels.",
+    "insights": "Pandemic losses spread through tourism, supply chains, wages, consumption and investment, while policy support can offset part of the damage. These are scenario-conditioned comparative responses rather than unconditional forecasts."
   },
   "placements": [
     {

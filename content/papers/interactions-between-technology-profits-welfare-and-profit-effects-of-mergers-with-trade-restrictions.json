@@ -5,10 +5,10 @@
   "source_url": "",
   "paper_url": null,
   "summary": {
-    "about": "How trade liberalization and mergers affect prices, output, profits and importer welfare under different technologies.",
+    "about": "Examines how trade liberalization and mergers affect prices, output, profits and importer welfare under different technologies.",
     "audience": "Trade economists, competition regulators and industrial-organization researchers.",
-    "method": "Uses a two-country oligopoly model with capital- and labor-intensive exporters.",
-    "insights": "Freer trade raises output and lowers prices, but profit effects are ambiguous; importer welfare rises when initial restrictions are not extreme."
+    "method": "Uses a two-country oligopoly model with capital- and labor-intensive exporters. The contribution is methodological: it specifies an analytical mechanism and evaluates it against the stated data or scenarios.",
+    "insights": "Freer trade raises output and lowers prices, but profit effects are ambiguous; importer welfare rises when initial restrictions are not extreme. The result is conditional on the model specification, data-generating process, and validation assumptions."
   },
   "placements": [
     {
