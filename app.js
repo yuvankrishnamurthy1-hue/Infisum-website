@@ -880,6 +880,8 @@ function initClientTicker(){
     return image ? [image.getAttribute('src'), image.getAttribute('alt')] : null;
   }).filter(Boolean);
   const logos = [...existing, ...DECK_CLIENT_LOGOS.map(([file, alt]) => [`assets/logos/deck/${file}`, alt])];
+  // Keep the same pixel-per-second movement as the original 20-logo ticker.
+  track.style.animationDuration = `${Math.round(34 * logos.length / Math.max(existing.length, 1))}s`;
   const render = ([src, alt]) => {
     const mark = document.createElement('span');
     mark.className = 'logo-mark';
