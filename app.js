@@ -1,6 +1,63 @@
 // Infisum site behavior: nav, hero typer, scroll reveals, industries grid + modal,
 // capability tabs, contact form.
 
+const DECK_CLIENT_LOGOS = [
+  ['commonwealth.png', 'The Commonwealth'],
+  ['florida-tech.png', 'Florida Tech'],
+  ['odi.png', 'Overseas Development Institute'],
+  ['irri.png', 'International Rice Research Institute'],
+  ['ilo.png', 'International Labour Organization'],
+  ['shriram.png', 'Shriram Commercial Vehicle Finance'],
+  ['athena-economics.png', 'Athena Economics'],
+  ['amazon-india.png', 'Amazon India'],
+  ['ey.png', 'EY'],
+  ['aditya-birla.png', 'Aditya Birla Group'],
+  ['mckinsey.png', 'McKinsey & Company'],
+  ['african-development-bank.png', 'African Development Bank'],
+  ['unctad.svg', 'United Nations Conference on Trade and Development'],
+  ['afreximbank.png', 'African Export-Import Bank'],
+  ['uk-trade.png', 'United Kingdom Department for International Trade'],
+  ['ncaer.jpeg', 'National Council of Applied Economic Research'],
+  ['eiu.jpeg', 'Economist Intelligence Unit'],
+  ['isdb.png', 'Islamic Development Bank'],
+  ['unido.png', 'United Nations Industrial Development Organization'],
+  ['uae-ministry.png', 'United Arab Emirates Ministry of Economy'],
+  ['unwto.jpeg', 'UN World Tourism Organization'],
+  ['us-state-department.png', 'United States Department of State'],
+  ['efta.png', 'European Free Trade Association'],
+  ['tata.png', 'Tata'],
+  ['idh.png', 'IDH The Sustainable Trade Initiative'],
+  ['isb.png', 'Indian School of Business'],
+  ['iift.png', 'Indian Institute of Foreign Trade'],
+  ['iit-kanpur.jpeg', 'Indian Institute of Technology Kanpur'],
+  ['iim-ahmedabad.png', 'Indian Institute of Management Ahmedabad'],
+  ['iatrc.png', 'International Agricultural Trade Research Consortium'],
+  ['wilson-center.png', 'Wilson Center'],
+  ['world-resources-institute.jpeg', 'World Resources Institute'],
+  ['pahle-india.jpeg', 'Pahle India Foundation'],
+  ['public-investment-fund.png', 'Public Investment Fund'],
+  ['geneva-graduate-institute.png', 'Geneva Graduate Institute'],
+  ['circular-innovation-lab.jpeg', 'Circular Innovation Lab'],
+  ['niti-aayog.jpeg', 'NITI Aayog'],
+  ['ceew.png', 'Council on Energy, Environment and Water'],
+  ['aiib.png', 'Asian Infrastructure Investment Bank'],
+  ['filium.jpeg', 'Filium'],
+  ['adani-university.png', 'Adani University'],
+  ['csep.png', 'Centre for Social and Economic Progress'],
+  ['center-for-renewing-america.png', 'Center for Renewing America'],
+  ['gail.png', 'GAIL'],
+  ['ministry-finance-india.png', 'Ministry of Finance, India'],
+  ['ministry-external-affairs-india.jpeg', 'Ministry of External Affairs, India'],
+  ['cpi-investments.jpeg', 'CPI Investments'],
+  ['omers.png', 'OMERS'],
+  ['coalition-for-prosperous-america.jpeg', 'Coalition for a Prosperous America'],
+  ['grips.jpeg', 'National Graduate Institute for Policy Studies'],
+  ['washington-policy-center.jpeg', 'Washington Policy Center'],
+  ['usda.jpeg', 'United States Department of Agriculture'],
+  ['wto.jpeg', 'World Trade Organization'],
+  ['rotary.jpeg', 'Rotary International']
+];
+
 /* Verified against the live Infisum article pages and their publication links. */
 const PAPER_LINKS = window.INFISUM_CONTENT?.paperLinks || {
   "A Graphics Design Framework to Visualize Multi-dimensional Economic Datasets": {
@@ -804,6 +861,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initNav();
   initTyper();
   initReveals();
+  initClientTicker();
   initIndustries();
   initTabs();
   initContactForm();
@@ -812,6 +870,27 @@ document.addEventListener('DOMContentLoaded', () => {
   initPaperLibrary();
   initPeopleDirectory();
 });
+
+function initClientTicker(){
+  const track = document.querySelector('.marquee-track');
+  if (!track || !DECK_CLIENT_LOGOS.length) return;
+
+  const existing = [...track.children].slice(0, Math.ceil(track.children.length / 2)).map(mark => {
+    const image = mark.querySelector('img');
+    return image ? [image.getAttribute('src'), image.getAttribute('alt')] : null;
+  }).filter(Boolean);
+  const logos = [...existing, ...DECK_CLIENT_LOGOS.map(([file, alt]) => [`assets/logos/deck/${file}`, alt])];
+  const render = ([src, alt]) => {
+    const mark = document.createElement('span');
+    mark.className = 'logo-mark';
+    const image = document.createElement('img');
+    image.src = src;
+    image.alt = alt;
+    mark.appendChild(image);
+    return mark;
+  };
+  track.replaceChildren(...logos.map(render), ...logos.map(render));
+}
 
 /* ---------- Floating nav ---------- */
 function initNav(){
