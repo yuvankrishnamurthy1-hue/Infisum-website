@@ -898,20 +898,80 @@ function initClientTicker(){
 function initNav(){
   const nav = document.getElementById('nav');
   const toggle = document.getElementById('navToggle');
+  const navLinks = nav?.querySelector('.nav-links');
   if (!nav) return;
 
   const onScroll = () => nav.classList.toggle('scrolled', window.scrollY > 8);
   onScroll();
   window.addEventListener('scroll', onScroll, { passive: true });
 
-  if (toggle){
-    toggle.addEventListener('click', () => nav.classList.toggle('open'));
-    nav.querySelectorAll('.nav-links a').forEach(a =>
-      a.addEventListener('click', () => nav.classList.remove('open'))
-    );
-    document.addEventListener('click', (e) => {
-      if (nav.classList.contains('open') && !nav.contains(e.target)) nav.classList.remove('open');
+  if (toggle && navLinks){
+    const mobileQuery = window.matchMedia('(max-width: 960px)');
+    const submenuItems = [...navLinks.querySelectorAll('.nav-item')];
+
+    const closeNav = () => {
+      nav.classList.remove('open');
+      document.body.classList.remove('menu-open');
+      toggle.setAttribute('aria-expanded', 'false');
+      submenuItems.forEach(item => {
+        item.classList.remove('mobile-open');
+        item.querySelector('.nav-submenu-toggle')?.setAttribute('aria-expanded', 'false');
+      });
+    };
+
+    const contactLink = nav.querySelector('.nav-cta');
+    if (contactLink && !navLinks.querySelector('.mobile-nav-contact')) {
+      const mobileContact = contactLink.cloneNode(true);
+      mobileContact.classList.add('mobile-nav-contact');
+      navLinks.appendChild(mobileContact);
+    }
+
+    submenuItems.forEach((item, index) => {
+      const primaryLink = item.querySelector(':scope > a');
+      const submenu = item.querySelector(':scope > .nav-dropdown');
+      if (!primaryLink || !submenu) return;
+      const button = document.createElement('button');
+      const submenuId = `mobile-submenu-${index}`;
+      submenu.id = submenuId;
+      button.className = 'nav-submenu-toggle';
+      button.type = 'button';
+      button.setAttribute('aria-controls', submenuId);
+      button.setAttribute('aria-expanded', 'false');
+      button.setAttribute('aria-label', `Open ${primaryLink.textContent.trim()} menu`);
+      button.innerHTML = '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m7 10 5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+      item.appendChild(button);
+      button.addEventListener('click', () => {
+        if (!mobileQuery.matches) return;
+        const willOpen = !item.classList.contains('mobile-open');
+        submenuItems.forEach(other => {
+          other.classList.remove('mobile-open');
+          other.querySelector('.nav-submenu-toggle')?.setAttribute('aria-expanded', 'false');
+        });
+        if (willOpen) {
+          item.classList.add('mobile-open');
+          button.setAttribute('aria-expanded', 'true');
+        }
+      });
     });
+
+    toggle.setAttribute('aria-expanded', 'false');
+    toggle.setAttribute('aria-controls', 'navLinks');
+    toggle.addEventListener('click', () => {
+      const willOpen = !nav.classList.contains('open');
+      if (willOpen) {
+        nav.classList.add('open');
+        document.body.classList.add('menu-open');
+        toggle.setAttribute('aria-expanded', 'true');
+      } else {
+        closeNav();
+      }
+    });
+    navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', closeNav));
+    document.addEventListener('click', (e) => {
+      if (nav.classList.contains('open') && !nav.contains(e.target)) closeNav();
+    });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeNav(); });
+    mobileQuery.addEventListener('change', (e) => { if (!e.matches) closeNav(); });
   }
 }
 
