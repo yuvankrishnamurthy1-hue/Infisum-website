@@ -275,6 +275,7 @@ section{position:relative}
 .logo-card:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:transparent}
 .logo-card img{max-width:100%;max-height:100%;object-fit:contain}
 .logo-card.on-dark{background:var(--blue-deep);border-color:var(--blue-deep)}
+.logo-card.on-black{background:#050505;border-color:#050505}
 .deck-client-head{margin:48px 0 24px;max-width:62ch}
 .deck-client-head h3{font-size:clamp(22px,2.5vw,30px);margin:8px 0 0}
 .deck-client-head p{margin-top:8px}
