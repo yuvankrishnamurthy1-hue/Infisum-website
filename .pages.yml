@@ -47,6 +47,10 @@ content:
       - name: paper_url
         label: Full paper URL
         type: string
+      - name: publication_date
+        label: Original publication date
+        type: date
+        description: Used to place the six newest dated studies in Spotlight automatically.
       - name: summary
         label: Plain-language summary
         type: object

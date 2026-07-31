@@ -52,6 +52,7 @@ for (const paper of papers) {
   paperSlugs.add(paper.slug);
   if (!validUrl(paper.source_url)) errors.push(`${label}: invalid source_url`);
   if (!validUrl(paper.paper_url)) errors.push(`${label}: invalid paper_url`);
+  if (paper.publication_date && !/^\d{4}(?:-\d{2}(?:-\d{2})?)?$/.test(paper.publication_date)) errors.push(`${label}: publication_date must use YYYY, YYYY-MM, or YYYY-MM-DD`);
   if (!paper.summary) warnings.push(`${label}: no approved summary is stored`);
   if (!Array.isArray(paper.placements) || !paper.placements.length) {
     errors.push(`${label}: requires at least one industry placement`);

@@ -77,13 +77,37 @@ const paperLinks = Object.fromEntries(papers.map((paper) => [paper.title, {
   paperUrl: paper.paper_url || null
 }]));
 const paperSummaries = Object.fromEntries(papers.filter((paper) => paper.summary).map((paper) => [paper.title, paper.summary]));
+const spotlightPapers = papers
+  .filter((paper) => paper.publication_date && paper.summary && (paper.paper_url || paper.source_url) && paper.placements?.length)
+  .sort((a, b) => b.publication_date.localeCompare(a.publication_date) || a.title.localeCompare(b.title))
+  .slice(0, 6);
+
+function publicationLabel(value) {
+  if (/^\d{4}$/.test(value)) return value;
+  const date = new Date(`${value}${value.length === 7 ? '-01' : ''}T00:00:00Z`);
+  return new Intl.DateTimeFormat('en', { timeZone: 'UTC', month: 'short', year: 'numeric', ...(value.length === 10 ? { day: 'numeric' } : {}) }).format(date);
+}
+
+function renderSpotlightCards() {
+  if (!spotlightPapers.length) {
+    return '      <article class="spotlight-empty"><h2>New research is on its way.</h2><p>Spotlight updates automatically when a published paper has a verified date, plain-language summary and research link.</p></article>';
+  }
+  return spotlightPapers.map((paper) => {
+    const placement = paper.placements[0];
+    const image = imageValue(placement);
+    const category = placement.category || 'Research';
+    const url = paper.paper_url || paper.source_url;
+    return `      <a class="card spotlight-card" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" data-tag="${escapeHtml(category)}"><span class="spotlight-card-media" aria-hidden="true">${image ? `<img src="${escapeHtml(image)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" />` : ''}</span><span class="tag">${escapeHtml(category)}</span><h3>${escapeHtml(paper.title)}</h3><p>${escapeHtml(paper.summary.about)}</p><span class="spotlight-status">Published ${escapeHtml(publicationLabel(paper.publication_date))}</span><span class="spotlight-read">Read research <span aria-hidden="true">↗</span></span></a>`;
+  }).join('\n');
+}
 
 const runtime = {
   industries: runtimeIndustries,
   industryImages,
   homeIndustryImages,
   paperLinks,
-  paperSummaries
+  paperSummaries,
+  spotlightPapers
 };
 fs.writeFileSync(path.join(dist, 'content-runtime.js'), `window.INFISUM_CONTENT = ${JSON.stringify(runtime, null, 2)};\n`, 'utf8');
 
@@ -149,6 +173,11 @@ for (const filename of fs.readdirSync(dist).filter((name) => name.endsWith('.htm
       /(<section class="band tight paper-library-section"[\s\S]*?<div class="band-head reveal">[\s\S]*?<p>)[^<]*(<\/p>)/,
       `$1${placements.length} papers and research articles.$2`
     );
+  }
+  if (filename === 'spotlight.html') {
+    const feedPattern = /<div class="card-grid spotlight-grid reveal" data-spotlight-feed>[\s\S]*?<\/div>/;
+    if (!feedPattern.test(html)) throw new Error('Could not find the Spotlight research feed');
+    html = html.replace(feedPattern, `<div class="card-grid spotlight-grid reveal" data-spotlight-feed>\n${renderSpotlightCards()}\n    </div>`);
   }
   fs.writeFileSync(filePath, html, 'utf8');
 }
