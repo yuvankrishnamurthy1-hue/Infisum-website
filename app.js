@@ -919,13 +919,6 @@ function initNav(){
       });
     };
 
-    const contactLink = nav.querySelector('.nav-cta');
-    if (contactLink && !navLinks.querySelector('.mobile-nav-contact')) {
-      const mobileContact = contactLink.cloneNode(true);
-      mobileContact.classList.add('mobile-nav-contact');
-      navLinks.appendChild(mobileContact);
-    }
-
     submenuItems.forEach((item, index) => {
       const primaryLink = item.querySelector(':scope > a');
       const submenu = item.querySelector(':scope > .nav-dropdown');
