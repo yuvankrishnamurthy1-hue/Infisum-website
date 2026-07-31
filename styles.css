@@ -184,6 +184,8 @@ section{position:relative}
 .about-copy--lead{padding-top:2px}
 .about-copy--body{max-width:1160px}
 .about-copy--body p{max-width:1120px}
+.about-copy--body a[href^="http"]{color:var(--blue);font-weight:600;text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:3px}
+.about-copy--body a[href^="http"]:hover{color:var(--blue-deep)}
 .about-services{margin:18px 0 0;padding-left:20px;color:var(--ink-soft);font-size:16.5px;line-height:1.65}
 .about-services li{margin-bottom:9px;padding-left:4px}
 .about-copy h3{margin:28px 0 12px;font-size:20px}
