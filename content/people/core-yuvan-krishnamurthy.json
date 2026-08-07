@@ -5,8 +5,6 @@
   "order": 23,
   "published": true,
   "role": "Intern",
-  "bio": "",
-  "image": "assets/content/people/core-yuvan-krishnamurthy.png",
-  "image_url": "",
-  "linkedin_url": null
+  "image": "/assets/content/people/core-yuvan-krishnamurthy.png",
+  "linkedin_url": "https://www.linkedin.com/in/yuvan-krishnamurthy-1043a2363/"
 }
