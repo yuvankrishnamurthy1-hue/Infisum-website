@@ -1534,13 +1534,14 @@ function initPeopleDirectory(){
       img.loading = 'lazy';
       img.decoding = 'async';
       img.referrerPolicy = 'no-referrer';
-      // A dead/unresponsive host (rather than a clean 404) can leave the browser hanging on the
-      // connection well past any reasonable wait, so 'error' never fires in time. Force a fallback
-      // after 4s regardless, but still swap in the real photo if it shows up after that.
+      // Keep a timeout only for remote images. Local CMS assets are lazy-loaded as the visitor
+      // scrolls, so a global timeout would incorrectly replace healthy off-screen photos with initials.
       let fellBack = false;
-      const giveUp = setTimeout(() => { fellBack = true; showInitials(); }, 4000);
+      const giveUp = /^https?:\/\//i.test(imageSrc)
+        ? setTimeout(() => { fellBack = true; showInitials(); }, 4000)
+        : null;
       img.addEventListener('load', () => {
-        clearTimeout(giveUp);
+        if (giveUp) clearTimeout(giveUp);
         if (fellBack) {
           photo.classList.remove('person-photo-fallback');
           photo.textContent = '';
@@ -1548,7 +1549,7 @@ function initPeopleDirectory(){
         }
       });
       img.addEventListener('error', () => {
-        clearTimeout(giveUp);
+        if (giveUp) clearTimeout(giveUp);
         if (!fellBack) { fellBack = true; showInitials(); }
       });
       photo.appendChild(img);
